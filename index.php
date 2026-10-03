@@ -128,6 +128,51 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="wp-custom-css">
 /** Start Block Kit CSS:144-3-3a7d335f39a8579c20cdf02f8d462582 **/.envato-block__preview{overflow:visible}/* Envato Kit 141 Custom Styles - Applied to the element under Advanced */.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper{text-align:center}.envato-kit-141-top-0 h1,.envato-kit-141-top-0 h2,.envato-kit-141-top-0 h3,.envato-kit-141-top-0 h4,.envato-kit-141-top-0 h5,.envato-kit-141-top-0 h6,.envato-kit-141-top-0 p{margin-top:0}.envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md{padding-left:1.5rem;padding-right:1.5rem}.envato-kit-141-bottom-0 p{margin-bottom:0}.envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header{margin-bottom:.5rem}.envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container{padding-bottom:52px}.envato-kit-141-display-inline{display:inline-block}.envato-kit-141 .elementor-slick-slider ul.slick-dots{bottom:-40px}/** End Block Kit CSS:144-3-3a7d335f39a8579c20cdf02f8d462582 **/
 </style>
+<style id="responsive-impressions-css">
+html,body{overflow-x:hidden}
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%;height:auto}
+.elementor-heading-title,.elementor-widget-text-editor,.elementor-widget-container p,.elementor-button-text{overflow-wrap:anywhere;word-break:normal}
+.elementor-image-carousel-wrapper{width:100%;max-width:100%;overflow:hidden}
+.elementor-image-carousel .swiper-slide{min-width:0}
+.elementor-image-carousel .swiper-slide-inner{display:flex;align-items:center;justify-content:center;width:100%;height:100%;margin:0}
+.elementor-image-carousel .swiper-slide-image{display:block;width:100%;height:auto;max-height:75vh;object-fit:contain}
+@media (max-width:767px){
+  .elementor-element-612ce5b{height:70px!important;min-height:70px!important;padding:0!important}
+  .elementor-element-0571063,.elementor-element-2a2d030,.elementor-element-7523c02{position:absolute;top:0;height:70px!important;min-height:70px!important;padding:0!important;margin:0!important;z-index:5}
+  .elementor-element-0571063{left:0;width:58%!important}
+  .elementor-element-2a2d030{left:58%;width:19%!important}
+  .elementor-element-7523c02{right:0;width:23%!important}
+  .elementor-element-0571063 .e-con-inner,.elementor-element-2a2d030 .e-con-inner,.elementor-element-7523c02 .e-con-inner{height:70px!important;min-height:70px!important;padding:0 4px!important;display:flex;flex-direction:row;align-items:center;justify-content:center}
+  .elementor-element-0571063 .elementor-widget-image,.elementor-element-0571063 .elementor-widget-image .elementor-widget-container{width:100%;max-width:190px;margin:0}
+  .elementor-element-0571063 .elementor-widget-image img{display:block;width:100%!important;height:auto!important;max-height:58px;object-fit:contain}
+  .elementor-element-2a2d030 .elementor-social-icons-wrapper{display:flex;align-items:center;justify-content:center;gap:7px}
+  .elementor-element-2a2d030 .elementor-social-icon{width:24px;height:24px;font-size:13px}
+  .elementor-element-7523c02 .elementor-widget-button,.elementor-element-7523c02 .elementor-widget-container,.elementor-element-7523c02 .elementor-button-wrapper{width:100%;margin:0}
+  .elementor-element-7523c02 .elementor-button{display:flex;align-items:center;justify-content:center;width:100%;min-height:39px;padding:7px 4px!important;font-size:11px;line-height:1;border:2px solid #d8ab2c;transform:none!important;white-space:nowrap}
+  .elementor-element-79a1d27{margin-top:0!important}
+  .elementor-hidden-desktop.e-flex,.elementor-hidden-desktop .e-con-inner{width:100%;max-width:100%;min-width:0}
+  .elementor-hidden-desktop .e-con-inner{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;padding-left:12px;padding-right:12px}
+  .elementor-hidden-desktop .e-con-full,.elementor-hidden-desktop .elementor-widget{width:100%;max-width:100%;min-width:0}
+  .elementor-element-0571063{min-height:0!important;padding-top:8px!important;padding-bottom:8px!important}
+  .elementor-element-0571063 .elementor-widget-image,.elementor-element-0571063 .elementor-widget-image .elementor-widget-container{width:100%;max-width:280px;margin:0 auto}
+  .elementor-element-0571063 .elementor-widget-image img{display:block;width:100%!important;height:auto!important;max-height:170px;object-fit:contain}
+  .elementor-element-2a2d030{min-height:0!important;padding-top:4px!important;padding-bottom:4px!important}
+  .elementor-element-7523c02{min-height:0!important;padding-top:4px!important;padding-bottom:8px!important}
+  .elementor-element-7523c02 .elementor-button{transform:none!important}
+  .elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588,.elementor-element-f91882c,.elementor-element-ff4b870,.elementor-element-fc0a6b3{height:auto!important;min-height:0!important}
+  .elementor-element-4a41c2f .e-con-inner,.elementor-element-84cd163 .e-con-inner,.elementor-element-72be588 .e-con-inner,.elementor-element-ff4b870 .e-con-inner,.elementor-element-fc0a6b3 .e-con-inner{padding-top:12px;padding-bottom:12px}
+  .elementor-hidden-desktop .elementor-heading-title{font-size:clamp(20px,6vw,30px);line-height:1.25;text-align:center;white-space:normal}
+  .elementor-element-9f004ce .swiper-slide{width:100%!important}
+  .elementor-element-9f004ce .swiper-slide-image{width:100%;max-height:none;object-fit:contain}
+  .elementor-element-9f004ce .elementor-swiper-button{width:28px;height:28px}
+  .elementor-element-9f004ce .elementor-swiper-button svg{width:16px;height:16px}
+  .elementor-widget-button .elementor-button{max-width:100%;white-space:normal;text-align:center}
+}
+@media (min-width:768px){
+  .elementor-element-96a22b8 .swiper-slide-image{max-height:620px}
+}
+</style>
 <!-- OceanWP CSS -->
 <style type="text/css">
 /* CSS Variables */:root{--owp-primary-color:#007a99;--owp-primary-color-hover:#005f78;--owp-link-color:#333333;--owp-link-color-hover:#007a99;--owp-button-bg-color:#007a99;--owp-button-bg-color-hover:#005f78;--owp-button-text-color:#ffffff;--owp-button-text-color-hover:#ffffff;--owp-button-padding-top:14px;--owp-button-padding-right:20px;--owp-button-padding-bottom:14px;--owp-button-padding-left:20px;--owp-button-font-size:14px;--owp-button-font-weight:600;--owp-button-letter-spacing:.05em;--owp-button-line-height:1.2;--owp-button-text-transform:none;--owp-input-text-color:#333333;--owp-input-border-color:#767676;--owp-input-border-color-focus:#333333;--owp-input-font-size:16px;--owp-input-line-height:1.6;--owp-widget-link-color:#007a99;--owp-widget-link-color-hover:#005f78;--owp-widget-link-text-decoration:underline;--owp-widget-link-text-decoration-hover:underline;--owp-widget-link-underline-offset:.2em;--owp-focus-outline-width:2px;--owp-focus-outline-offset:2px;--owp-focus-outline-color:currentColor;--owp-button-focus-outline-color:var(--owp-button-bg-color-hover,var(--owp-button-bg-color,var(--owp-primary-color,currentColor)));--owp-search-form-label-color:#000000;--owp-search-form-label-font-size:inherit;--owp-comment-form-label-color:#000000;--owp-comment-form-label-required-mark-color:#000000;--owp-comment-form-label-font-size:inherit;--owp-social-external-mark-color:#ffffff;--owp-social-external-mark-bg:#000000;--owp-social-external-mark-size:.72em;--owp-social-external-mark-offset-x:-0.15em;--owp-social-external-mark-offset-y:-0.25em;--owp-header-media-button-bg-color:rgba(0,0,0,0.5);--owp-header-media-button-bg-color-hover:rgba(0,0,0,0.75);--owp-header-media-button-bg-color-focus:rgba(0,0,0,0.75);--owp-header-media-button-icon-color:rgba(255,255,255,0.8);--owp-header-media-button-icon-color-hover:#ffffff;--owp-header-media-button-icon-color-focus:#ffffff;--owp-header-media-button-border-color:rgba(255,255,255,0.6);--owp-header-media-button-border-color-hover:rgba(255,255,255,0.9);--owp-header-media-button-border-color-focus:rgba(255,255,255,0.9);--owp-header-media-overlay-color:rgba(0,0,0,0.3);--owp-header-media-height:600px;--owp-header-media-image-position:initial;--owp-header-media-image-size:initial;--owp-topbar-social-external-mark-color:#ffffff;--owp-topbar-social-external-mark-bg:#000000;--owp-topbar-social-external-mark-size:.72em;--owp-topbar-social-external-mark-offset-x:-0.15em;--owp-topbar-social-external-mark-offset-y:-0.25em}@media screen and (max-width:768px){:root{--owp-search-form-label-font-size:inherit;--owp-comment-form-label-font-size:inherit;--owp-header-media-height:600px;--owp-primary-color:#007a99;--owp-primary-color-hover:#005f78;--owp-link-color:#333333;--owp-link-color-hover:#007a99;--owp-button-bg-color:#007a99;--owp-button-bg-color-hover:#005f78;--owp-button-text-color:#ffffff;--owp-button-text-color-hover:#ffffff;--owp-button-padding-top:14px;--owp-button-padding-right:20px;--owp-button-padding-bottom:14px;--owp-button-padding-left:20px;--owp-button-font-size:14px;--owp-button-font-weight:600;--owp-button-letter-spacing:.05em;--owp-button-line-height:1.2;--owp-button-text-transform:none;--owp-input-text-color:#333333;--owp-input-border-color:#767676;--owp-input-border-color-focus:#333333;--owp-input-font-size:16px;--owp-input-line-height:1.6;--owp-widget-link-color:#007a99;--owp-widget-link-color-hover:#005f78;--owp-widget-link-text-decoration:underline;--owp-widget-link-text-decoration-hover:underline;--owp-widget-link-underline-offset:.2em;--owp-focus-outline-width:2px;--owp-focus-outline-offset:2px;--owp-focus-outline-color:currentColor;--owp-button-focus-outline-color:var(--owp-button-bg-color-hover,var(--owp-button-bg-color,var(--owp-primary-color,currentColor)));--owp-search-form-label-color:#000000;--owp-comment-form-label-color:#000000;--owp-comment-form-label-required-mark-color:#000000;--owp-social-external-mark-color:#ffffff;--owp-social-external-mark-bg:#000000;--owp-social-external-mark-size:.72em;--owp-social-external-mark-offset-x:-0.15em;--owp-social-external-mark-offset-y:-0.25em;--owp-header-media-button-bg-color:rgba(0,0,0,0.5);--owp-header-media-button-bg-color-hover:rgba(0,0,0,0.75);--owp-header-media-button-bg-color-focus:rgba(0,0,0,0.75);--owp-header-media-button-icon-color:rgba(255,255,255,0.8);--owp-header-media-button-icon-color-hover:#ffffff;--owp-header-media-button-icon-color-focus:#ffffff;--owp-header-media-button-border-color:rgba(255,255,255,0.6);--owp-header-media-button-border-color-hover:rgba(255,255,255,0.9);--owp-header-media-button-border-color-focus:rgba(255,255,255,0.9);--owp-header-media-overlay-color:rgba(0,0,0,0.3);--owp-header-media-image-position:initial;--owp-header-media-image-size:initial;--owp-topbar-social-external-mark-color:#ffffff;--owp-topbar-social-external-mark-bg:#000000;--owp-topbar-social-external-mark-size:.72em;--owp-topbar-social-external-mark-offset-x:-0.15em;--owp-topbar-social-external-mark-offset-y:-0.25em}}@media screen and (max-width:480px){:root{--owp-search-form-label-font-size:inherit;--owp-comment-form-label-font-size:inherit;--owp-header-media-height:600px;--owp-primary-color:#007a99;--owp-primary-color-hover:#005f78;--owp-link-color:#333333;--owp-link-color-hover:#007a99;--owp-button-bg-color:#007a99;--owp-button-bg-color-hover:#005f78;--owp-button-text-color:#ffffff;--owp-button-text-color-hover:#ffffff;--owp-button-padding-top:14px;--owp-button-padding-right:20px;--owp-button-padding-bottom:14px;--owp-button-padding-left:20px;--owp-button-font-size:14px;--owp-button-font-weight:600;--owp-button-letter-spacing:.05em;--owp-button-line-height:1.2;--owp-button-text-transform:none;--owp-input-text-color:#333333;--owp-input-border-color:#767676;--owp-input-border-color-focus:#333333;--owp-input-font-size:16px;--owp-input-line-height:1.6;--owp-widget-link-color:#007a99;--owp-widget-link-color-hover:#005f78;--owp-widget-link-text-decoration:underline;--owp-widget-link-text-decoration-hover:underline;--owp-widget-link-underline-offset:.2em;--owp-focus-outline-width:2px;--owp-focus-outline-offset:2px;--owp-focus-outline-color:currentColor;--owp-button-focus-outline-color:var(--owp-button-bg-color-hover,var(--owp-button-bg-color,var(--owp-primary-color,currentColor)));--owp-search-form-label-color:#000000;--owp-comment-form-label-color:#000000;--owp-comment-form-label-required-mark-color:#000000;--owp-social-external-mark-color:#ffffff;--owp-social-external-mark-bg:#000000;--owp-social-external-mark-size:.72em;--owp-social-external-mark-offset-x:-0.15em;--owp-social-external-mark-offset-y:-0.25em;--owp-header-media-button-bg-color:rgba(0,0,0,0.5);--owp-header-media-button-bg-color-hover:rgba(0,0,0,0.75);--owp-header-media-button-bg-color-focus:rgba(0,0,0,0.75);--owp-header-media-button-icon-color:rgba(255,255,255,0.8);--owp-header-media-button-icon-color-hover:#ffffff;--owp-header-media-button-icon-color-focus:#ffffff;--owp-header-media-button-border-color:rgba(255,255,255,0.6);--owp-header-media-button-border-color-hover:rgba(255,255,255,0.9);--owp-header-media-button-border-color-focus:rgba(255,255,255,0.9);--owp-header-media-overlay-color:rgba(0,0,0,0.3);--owp-header-media-image-position:initial;--owp-header-media-image-size:initial;--owp-topbar-social-external-mark-color:#ffffff;--owp-topbar-social-external-mark-bg:#000000;--owp-topbar-social-external-mark-size:.72em;--owp-topbar-social-external-mark-offset-x:-0.15em;--owp-topbar-social-external-mark-offset-y:-0.25em}}/* Colors */body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button,.woocommerce-cart .wp-element-button,.woocommerce-checkout .wp-element-button,.wp-block-button__link{border-color:#ffffff}body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:active,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:active,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:active,.woocommerce-cart .wp-element-button:hover,.woocommerce-checkout .wp-element-button:hover,.wp-block-button__link:hover{border-color:#ffffff}/* OceanWP Style Settings CSS */.theme-button,input[type="submit"],button[type="submit"],button,.button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{border-style:solid}.theme-button,input[type="submit"],button[type="submit"],button,.button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{border-width:1px}form input[type="text"],form input[type="password"],form input[type="email"],form input[type="url"],form input[type="date"],form input[type="month"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="week"],form input[type="number"],form input[type="search"],form input[type="tel"],form input[type="color"],form select,form textarea,.woocommerce .woocommerce-checkout .select2-container--default .select2-selection--single{border-style:solid}body div.wpforms-container-full .wpforms-form input[type=date],body div.wpforms-container-full .wpforms-form input[type=datetime],body div.wpforms-container-full .wpforms-form input[type=datetime-local],body div.wpforms-container-full .wpforms-form input[type=email],body div.wpforms-container-full .wpforms-form input[type=month],body div.wpforms-container-full .wpforms-form input[type=number],body div.wpforms-container-full .wpforms-form input[type=password],body div.wpforms-container-full .wpforms-form input[type=range],body div.wpforms-container-full .wpforms-form input[type=search],body div.wpforms-container-full .wpforms-form input[type=tel],body div.wpforms-container-full .wpforms-form input[type=text],body div.wpforms-container-full .wpforms-form input[type=time],body div.wpforms-container-full .wpforms-form input[type=url],body div.wpforms-container-full .wpforms-form input[type=week],body div.wpforms-container-full .wpforms-form select,body div.wpforms-container-full .wpforms-form textarea{border-style:solid}form input[type="text"],form input[type="password"],form input[type="email"],form input[type="url"],form input[type="date"],form input[type="month"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="week"],form input[type="number"],form input[type="search"],form input[type="tel"],form input[type="color"],form select,form textarea{border-radius:3px}body div.wpforms-container-full .wpforms-form input[type=date],body div.wpforms-container-full .wpforms-form input[type=datetime],body div.wpforms-container-full .wpforms-form input[type=datetime-local],body div.wpforms-container-full .wpforms-form input[type=email],body div.wpforms-container-full .wpforms-form input[type=month],body div.wpforms-container-full .wpforms-form input[type=number],body div.wpforms-container-full .wpforms-form input[type=password],body div.wpforms-container-full .wpforms-form input[type=range],body div.wpforms-container-full .wpforms-form input[type=search],body div.wpforms-container-full .wpforms-form input[type=tel],body div.wpforms-container-full .wpforms-form input[type=text],body div.wpforms-container-full .wpforms-form input[type=time],body div.wpforms-container-full .wpforms-form input[type=url],body div.wpforms-container-full .wpforms-form input[type=week],body div.wpforms-container-full .wpforms-form select,body div.wpforms-container-full .wpforms-form textarea{border-radius:3px}/* Header */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}/* Blog CSS */.ocean-single-post-header ul.meta-item li a:hover{color:#333333}/* Sidebar */.widget-area .sidebar-box,.separate-layout .sidebar-box{margin-bottom:px}/* Typography */body{font-size:14px;line-height:1.8}h1,h2,h3,h4,h5,h6,.theme-heading,.widget-title,.oceanwp-widget-recent-posts-title,.comment-reply-title,.entry-title,.sidebar-box .widget-title{line-height:1.4}h1{font-size:23px;line-height:1.4}h2{font-size:20px;line-height:1.4}h3{font-size:18px;line-height:1.4}h4{font-size:17px;line-height:1.4}h5{font-size:14px;line-height:1.4}h6{font-size:15px;line-height:1.4}.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{font-size:32px;line-height:1.4}.page-header .page-subheading,.page-header.background-image-page-header .page-subheading{font-size:15px;line-height:1.8}.site-breadcrumbs,.site-breadcrumbs a{font-size:13px;line-height:1.4}#top-bar-content,#top-bar-social-alt{font-size:12px;line-height:1.8}#site-logo a.site-logo-text{font-size:24px;line-height:1.8}.dropdown-menu ul li a.menu-link,#site-header.full_screen-header .fs-dropdown-menu ul.sub-menu li a{font-size:12px;line-height:1.2;letter-spacing:.6px}.sidr-class-dropdown-menu li a,a.sidr-class-toggle-sidr-close,button.sidr-class-toggle-sidr-close,#mobile-dropdown ul li a,#mobile-dropdown ul li >button.menu-link.dropdown-toggle,body #mobile-fullscreen ul li a,body #mobile-fullscreen ul li >button.menu-link.dropdown-toggle{font-size:15px;line-height:1.8}.blog-entry.post .blog-entry-header .entry-title a{font-size:24px;line-height:1.4}.ocean-single-post-header .single-post-title{font-size:34px;line-height:1.4;letter-spacing:.6px}.ocean-single-post-header ul.meta-item li,.ocean-single-post-header ul.meta-item li a{font-size:13px;line-height:1.4;letter-spacing:.6px}.ocean-single-post-header .post-author-name,.ocean-single-post-header .post-author-name a{font-size:14px;line-height:1.4;letter-spacing:.6px}.ocean-single-post-header .post-author-description{font-size:12px;line-height:1.4;letter-spacing:.6px}.single-post .entry-title{line-height:1.4;letter-spacing:.6px}.single-post ul.meta li,.single-post ul.meta li a{font-size:14px;line-height:1.4;letter-spacing:.6px}.sidebar-box .widget-title,.sidebar-box.widget_block .wp-block-heading{font-size:13px;line-height:1;letter-spacing:1px}#footer-widgets .footer-box .widget-title{font-size:13px;line-height:1;letter-spacing:1px}#footer-bottom #copyright{font-size:12px;line-height:1}#footer-bottom #footer-bottom-menu{font-size:12px;line-height:1}.ocean-preloader--active .preloader-after-content{font-size:20px;line-height:1.8;letter-spacing:.6px}
@@ -412,10 +457,423 @@ html, body {
         right: 14px;
     }
 }
+
 </style>
+
+<style id="kesh-fixed-mobile-header">
+/* ==========================================================
+   KESH FIXED MOBILE HEADER
+   Standalone layout - does not depend on Elementor containers
+   ========================================================== */
+
+@media (max-width: 767px) {
+
+    /* Completely disable the old exported Elementor mobile header.
+       These elements were using competing flex/absolute rules. */
+    .elementor-element-612ce5b,
+    .elementor-element-0571063,
+    .elementor-element-2a2d030,
+    .elementor-element-7523c02 {
+        display: none !important;
+    }
+
+    /* Keep the header out of Elementor's layout calculations. */
+    #kesh-mobile-header {
+        display: flex !important;
+        position: relative !important;
+        width: 100% !important;
+        height: 72px !important;
+        min-height: 72px !important;
+        margin: 0 !important;
+        padding: 0 10px !important;
+        box-sizing: border-box !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 8px !important;
+        background: #000 !important;
+        overflow: hidden !important;
+        z-index: 99999 !important;
+        isolation: isolate !important;
+    }
+
+    #kesh-mobile-header,
+    #kesh-mobile-header * {
+        box-sizing: border-box !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-logo {
+        flex: 1 1 auto !important;
+        min-width: 0 !important;
+        max-width: 58% !important;
+        height: 72px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-logo a {
+        display: flex !important;
+        width: 100% !important;
+        height: 72px !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-decoration: none !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-logo img {
+        display: block !important;
+        width: 100% !important;
+        max-width: 190px !important;
+        height: auto !important;
+        max-height: 58px !important;
+        object-fit: contain !important;
+        object-position: left center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-social {
+        flex: 0 0 auto !important;
+        width: 20% !important;
+        min-width: 58px !important;
+        height: 72px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 7px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-social a {
+        display: flex !important;
+        flex: 0 0 24px !important;
+        width: 24px !important;
+        height: 24px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-social svg {
+        display: block !important;
+        width: 24px !important;
+        height: 24px !important;
+        max-width: 24px !important;
+        max-height: 24px !important;
+        fill: currentColor !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-pickup {
+        flex: 0 0 23% !important;
+        width: 23% !important;
+        max-width: 23% !important;
+        height: 72px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-pickup a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        min-height: 39px !important;
+        margin: 0 !important;
+        padding: 7px 4px !important;
+        border: 2px solid #d8ab2c !important;
+        border-radius: 0 !important;
+        background: transparent !important;
+        color: #fff !important;
+        font-family: inherit !important;
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        line-height: 1 !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+        transform: none !important;
+        box-shadow: none !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-pickup a:hover,
+    #kesh-mobile-header .kesh-mobile-pickup a:focus,
+    #kesh-mobile-header .kesh-mobile-pickup a:active {
+        color: #fff !important;
+        background: transparent !important;
+        transform: none !important;
+    }
+
+    /* Prevent Elementor/OceanWP from creating an extra gap immediately
+       after the fixed header. */
+    #kesh-mobile-header + * {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 400px) {
+    #kesh-mobile-header {
+        height: 68px !important;
+        min-height: 68px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        gap: 5px !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-logo,
+    #kesh-mobile-header .kesh-mobile-logo a,
+    #kesh-mobile-header .kesh-mobile-social,
+    #kesh-mobile-header .kesh-mobile-pickup {
+        height: 68px !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-logo {
+        max-width: 57% !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-logo img {
+        max-width: 170px !important;
+        max-height: 54px !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-social {
+        width: 20% !important;
+        min-width: 55px !important;
+        gap: 5px !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-social a,
+    #kesh-mobile-header .kesh-mobile-social svg {
+        width: 22px !important;
+        height: 22px !important;
+        flex-basis: 22px !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-pickup {
+        flex-basis: 23% !important;
+        width: 23% !important;
+        max-width: 23% !important;
+    }
+
+    #kesh-mobile-header .kesh-mobile-pickup a {
+        min-height: 36px !important;
+        padding: 6px 2px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #kesh-mobile-header {
+        display: none !important;
+    }
+}
+</style>
+<style id="mobile-section-fixes">
+@media (max-width: 767px) {
+
+  /* ---------- 1. "An Excellent Choice for Discerning Clients" ---------- */
+  .elementor-element-acdba7c {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  .elementor-element-acdba7c > .e-con-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 14px !important;
+    padding: 36px 20px 40px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  /* cancel the saved offsets that stack the words on top of each other */
+  .elementor-element-acdba7c .elementor-element {
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  .elementor-element-acdba7c .elementor-heading-title {
+    text-align: center !important;
+    line-height: 1.35 !important;
+  }
+  /* BEAUTY / ETIQUETTE / INTELLIGENCE / LANGUAGE PROFICIENCY */
+  .elementor-element-acdba7c .elementor-element-6844231 .elementor-heading-title,
+  .elementor-element-acdba7c .elementor-element-3cff247 .elementor-heading-title,
+  .elementor-element-acdba7c .elementor-element-1ae16d9 .elementor-heading-title,
+  .elementor-element-acdba7c .elementor-element-40c71a5 .elementor-heading-title {
+    font-size: 13px !important;
+    letter-spacing: .18em !important;
+  }
+  .elementor-element-acdba7c .elementor-element-bae980b { margin-top: 8px !important; }
+  .elementor-element-acdba7c .elementor-element-bc0ae51 { margin-top: 12px !important; }
+  .elementor-element-acdba7c .elementor-element-bc0ae51 .elementor-button-wrapper { text-align: center; }
+  .elementor-element-acdba7c .elementor-element-e30848d { display: none !important; }
+
+  /* ---------- 2. "ROYAL Services" ---------- */
+  .elementor-element-ff4b870,
+  .elementor-element-fc0a6b3 {
+    height: auto !important;
+    min-height: 0 !important;
+    margin-top: 0 !important;
+    overflow: visible !important;
+  }
+  /* heading block: sits above the card, never behind it */
+  .elementor-element-ff4b870 > .e-con-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 32px 20px 8px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  .elementor-element-ff4b870 .elementor-element {
+    position: static !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .elementor-element-ff4b870 .elementor-heading-title { text-align: center !important; }
+  .elementor-element-a6138d0 { display: none !important; } /* empty container */
+
+  /* card block */
+  .elementor-element-fc0a6b3 > .e-con-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    margin-top: 0 !important;
+    padding: 8px 14px 40px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  .elementor-element-fc0a6b3 .e-con-full {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    margin: 0 !important;
+  }
+  /* dark gradient so the list stays readable over the photo */
+  .elementor-element-2f654c9 {
+    position: relative !important;
+    isolation: isolate;
+    overflow: hidden;
+  }
+  .elementor-element-2f654c9::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(90deg, rgba(0,0,0,.88) 0%, rgba(0,0,0,.6) 65%, rgba(0,0,0,.3) 100%);
+    z-index: 0;
+    pointer-events: none;
+  }
+  .elementor-element-2f654c9 > .elementor-element {
+    position: relative !important;
+    z-index: 1;
+  }
+  .elementor-element-2f654c9 .elementor-heading-title {
+    text-shadow: 0 2px 10px rgba(0,0,0,.9);
+  }
+}
+</style>
+<style id="kesh-qualities-fix">
+.kesh-qualities{display:none;list-style:none;margin:0;padding:0}
+
+@media (max-width:1024px){
+  /* hide the four overlapping widgets */
+  .elementor-element-6844231,
+  .elementor-element-3cff247,
+  .elementor-element-1ae16d9,
+  .elementor-element-40c71a5{display:none!important}
+
+  .kesh-qualities{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+    width:100%;
+    margin:6px 0 10px;
+  }
+  .kesh-qualities li{
+    margin:0;
+    padding:0;
+    color:#fff;
+    font:600 13px/1.4 "Montserrat",Arial,sans-serif;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    text-align:center;
+  }
+  .kesh-qualities li::before{content:"✦";color:#e0b13a;margin-right:8px}
+}
+</style>
+
 </head>
 <body class="home wp-singular page-template page-template-elementor_canvas page page-id-2232 wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile default-breakpoint has-sidebar content-right-sidebar has-topbar has-breadcrumbs elementor-default elementor-template-canvas elementor-kit-7 elementor-page elementor-page-2232 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet">
 			<div data-elementor-type="wp-page" data-elementor-id="2232" class="elementor elementor-2232">
+
+<!-- ==========================================================
+     STANDALONE MOBILE HEADER
+     Replaces the conflicting exported Elementor mobile header
+     ========================================================== -->
+<div id="kesh-mobile-header" aria-label="Mobile header">
+    <div class="kesh-mobile-logo">
+        <a href="./index.php" aria-label="Home">
+            <img
+                src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png"
+                width="610"
+                height="372"
+                alt="Euroescortbangkok"
+                decoding="async"
+                fetchpriority="high"
+            >
+        </a>
+    </div>
+
+    <div class="kesh-mobile-social" aria-label="Social links">
+        <a
+            href="https://wa.me/61489987819"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+        >
+            <svg aria-hidden="true" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+            </svg>
+        </a>
+
+        <a
+            href="#"
+            aria-label="Telegram"
+        >
+            <svg aria-hidden="true" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/>
+            </svg>
+        </a>
+    </div>
+
+    <div class="kesh-mobile-pickup">
+        <a href="#contact">PICK UP</a>
+    </div>
+</div>
+
 				<div class="elementor-element elementor-element-612ce5b elementor-hidden-desktop e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="612ce5b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-fc2a150 elementor-widget elementor-widget-spacer" data-id="fc2a150" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
@@ -528,6 +986,13 @@ html, body {
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">An Excellent Choice <br>for Discerning Clients</h2>				</div>
 				</div>
+				<ul class="kesh-qualities">
+                  <li>Beauty</li>
+                  <li>Etiquette</li>
+                  <li>Intelligence</li>
+                  <li>Language Proficiency</li>
+                </ul>
+                
 				<div class="elementor-element elementor-element-6844231 elementor-widget elementor-widget-heading" data-id="6844231" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">BEAUTY</h2>				</div>
@@ -927,7 +1392,7 @@ html, body {
 				</div>
 		<div class="elementor-element elementor-element-9f004ce elementor-hidden-desktop e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="9f004ce" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-902e302 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel e-widget-swiper" data-id="902e302" data-element_type="widget" data-e-type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-element elementor-element-902e302 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel e-widget-swiper" data-id="902e302" data-element_type="widget" data-e-type="widget" 				data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;no&quot;,&quot;pause_on_interaction&quot;:&quot;no&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events" role="region" aria-roledescription="carousel" aria-label="Image Carousel" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper" aria-live="off" id="swiper-wrapper-5f628049104f689bb" style="transition-duration: 0ms; transform: translate3d(-859px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" role="group" aria-roledescription="slide" aria-label="8 / 9" data-swiper-slide-index="7" style="width: 429.5px;"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./images/testimonial8.webp" alt="testimonial8"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" role="group" aria-roledescription="slide" aria-label="9 / 9" data-swiper-slide-index="8" aria-hidden="true" inert="" style="width: 429.5px;"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./images/testimonial9.webp" alt="testimonial9"></figure></div>
@@ -1816,7 +2281,7 @@ html, body {
 				</div>
 		<div class="elementor-element elementor-element-96a22b8 elementor-hidden-mobile e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="96a22b8" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-109efbe elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel e-widget-swiper" data-id="109efbe" data-element_type="widget" data-e-type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-element elementor-element-109efbe elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel e-widget-swiper" data-id="109efbe" data-element_type="widget" data-e-type="widget" 				data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;no&quot;,&quot;pause_on_interaction&quot;:&quot;no&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events" role="region" aria-roledescription="carousel" aria-label="Image Carousel" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper" aria-live="off" id="swiper-wrapper-e98c3410bb23f330b" style="transform: translate3d(-3006.5px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" role="group" aria-roledescription="slide" aria-label="8 / 9" style="width: 429.5px;" aria-hidden="true" inert="" data-swiper-slide-index="7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./images/testimonial8.webp" alt="testimonial8"></figure></div><div class="swiper-slide swiper-slide-duplicate" role="group" aria-roledescription="slide" aria-label="9 / 9" style="width: 429.5px;" aria-hidden="true" inert="" data-swiper-slide-index="8"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="./images/testimonial9.webp" alt="testimonial9"></figure></div>

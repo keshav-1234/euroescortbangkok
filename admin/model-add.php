@@ -1,11 +1,7 @@
 <?php
 // admin/model-add.php - Add a new escort model
 
-// ---------------------------------------------------------------
 // STEP 1: Load DB/session/auth WITHOUT printing any HTML.
-// (header.php prints HTML, so it must be included AFTER the
-//  redirect logic below.)
-// ---------------------------------------------------------------
 require_once __DIR__ . '/../includes/db.php';
 check_admin_auth();
 
@@ -14,10 +10,7 @@ $db = getDB();
 $error = '';
 $defaultGender = in_array($_GET['gender'] ?? '', ['girl', 'boy']) ? $_GET['gender'] : 'girl';
 
-// ---------------------------------------------------------------
-// STEP 2: Handle the form submission (redirect happens here,
-// before any output has been sent).
-// ---------------------------------------------------------------
+// STEP 2: Handle the form submission (redirect before any output)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim($_POST['name'] ?? '');
     $gender = in_array($_POST['gender'] ?? '', ['girl', 'boy']) ? $_POST['gender'] : 'girl';
@@ -41,11 +34,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (!is_dir($uploadDir)) {
             @mkdir($uploadDir, 0777, true);
         }
+        $allowed = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
 
-        // 1. Handle Main Image File Upload
+        // 1. Main image file upload
         if (!empty($_FILES['main_image_file']['name']) && $_FILES['main_image_file']['error'] === UPLOAD_ERR_OK) {
             $ext = strtolower(pathinfo($_FILES['main_image_file']['name'], PATHINFO_EXTENSION));
-            $allowed = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
             if (in_array($ext, $allowed)) {
                 $newFilename = 'model_' . time() . '_' . bin2hex(random_bytes(4)) . '.' . $ext;
                 $targetPath = $uploadDir . $newFilename;
@@ -57,23 +50,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-        // Fallback to text input URL if no file uploaded
+        // Fallback to URL input
         if (empty($main_image) && !empty($_POST['main_image_url'])) {
             $main_image = trim($_POST['main_image_url']);
         }
 
+        // Placeholder if none provided (also the result when the ✕ was used)
         if (empty($main_image)) {
-            // Default placeholder if none provided
             $main_image = 'images/placeholder.jpg';
         }
 
-        // 2. Handle Multiple Gallery Files Upload
+        // 2. Gallery file uploads (only the files still shown in the preview are submitted)
         if (!empty($_FILES['gallery_files']['name'][0])) {
             $fileCount = count($_FILES['gallery_files']['name']);
             for ($i = 0; $i < $fileCount; $i++) {
                 if ($_FILES['gallery_files']['error'][$i] === UPLOAD_ERR_OK) {
                     $ext = strtolower(pathinfo($_FILES['gallery_files']['name'][$i], PATHINFO_EXTENSION));
-                    $allowed = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
                     if (in_array($ext, $allowed)) {
                         $newFilename = 'gallery_' . time() . '_' . $i . '_' . bin2hex(random_bytes(3)) . '.' . $ext;
                         $targetPath = $uploadDir . $newFilename;
@@ -85,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-        // Add extra gallery URLs from textarea if provided
+        // Extra gallery URLs
         if (!empty($_POST['gallery_urls'])) {
             $extraUrls = array_filter(array_map('trim', explode("\n", $_POST['gallery_urls'])));
             foreach ($extraUrls as $url) {
@@ -129,9 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// ---------------------------------------------------------------
-// STEP 3: Only NOW output the layout (sidebar, topbar, etc.)
-// ---------------------------------------------------------------
+// STEP 3: Only now output the layout
 require_once __DIR__ . '/header.php';
 ?>
 
@@ -198,7 +188,7 @@ require_once __DIR__ . '/header.php';
                 <input type="text" id="hair" name="hair" class="form-control" placeholder="e.g. Blonde, Brunette, Black" value="<?= e($_POST['hair'] ?? 'Brunette') ?>">
             </div>
 
-            <!-- Status (Active / Inactive) -->
+            <!-- Status -->
             <div class="form-group">
                 <label class="form-label" for="status">Publication Status</label>
                 <select id="status" name="status" class="form-control">
@@ -219,12 +209,12 @@ require_once __DIR__ . '/header.php';
                 <input type="text" id="telegram" name="telegram" class="form-control" placeholder="@username or https://t.me/..." value="<?= e($_POST['telegram'] ?? '') ?>">
             </div>
 
-            <!-- Main Image Upload -->
+            <!-- Main Image -->
             <div class="form-group full-width" style="background: rgba(255, 255, 255, 0.02); padding: 18px; border-radius: var(--radius-sm); border: 1px dashed var(--border-color);">
                 <label class="form-label" style="font-size: 14px; margin-bottom: 8px;">Main Profile Image (Cover Card)</label>
                 <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
                     <div style="flex: 1; min-width: 250px;">
-                        <input type="file" name="main_image_file" class="form-control" accept="image/*" onchange="previewImage(this, 'mainImgPreview')">
+                        <input type="file" name="main_image_file" class="form-control" accept="image/*" onchange="previewMainImage(this)">
                         <small style="color: var(--text-muted); display: block; margin-top: 6px;">Upload image directly from your computer (.jpg, .png, .webp)</small>
                         <div style="margin-top: 10px;">
                             <label class="form-label" style="font-size: 12px; color: var(--text-muted);">OR specify image path/URL:</label>
@@ -232,16 +222,24 @@ require_once __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div>
-                        <img id="mainImgPreview" src="../images/placeholder.jpg" alt="Preview" style="width: 110px; height: 140px; object-fit: cover; border-radius: 8px; border: 1px solid var(--border-color); display: block; background: #000;">
+                        <div class="thumb-wrap">
+                            <img id="mainImgPreview" data-placeholder="../images/placeholder.jpg"
+                                 src="../images/placeholder.jpg" alt="Preview" style="width:110px;height:140px;">
+                            <button type="button" id="mainRemoveBtn" class="thumb-remove" title="Remove image"
+                                    onclick="removeMainImage()" style="display:none;">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Gallery Images Upload -->
+            <!-- Gallery Images -->
             <div class="form-group full-width" style="background: rgba(255, 255, 255, 0.02); padding: 18px; border-radius: var(--radius-sm); border: 1px dashed var(--border-color);">
                 <label class="form-label" style="font-size: 14px; margin-bottom: 8px;">Gallery Carousel Images (Profile Slider)</label>
-                <input type="file" name="gallery_files[]" class="form-control" accept="image/*" multiple>
-                <small style="color: var(--text-muted); display: block; margin-top: 6px;">Select multiple files at once using Ctrl/Cmd to upload a gallery carousel.</small>
+                <input type="file" name="gallery_files[]" class="form-control" accept="image/*" multiple onchange="onGalleryFilesChange(this)">
+                <small style="color: var(--text-muted); display: block; margin-top: 6px;">Select files (you can pick several times); use ✕ to remove any before saving.</small>
+                <div id="newGalleryPreview" class="thumb-grid" style="margin-top:12px;"></div>
 
                 <div style="margin-top: 14px;">
                     <label class="form-label" style="font-size: 12px; color: var(--text-muted);">OR enter image URLs / paths (one per line):</label>
@@ -249,13 +247,13 @@ require_once __DIR__ . '/header.php';
                 </div>
             </div>
 
-            <!-- Bio / About -->
+            <!-- Bio -->
             <div class="form-group full-width">
                 <label class="form-label" for="bio">Bio & Description</label>
                 <textarea id="bio" name="bio" class="form-control" placeholder="Write escort presentation, services, languages spoken..."><?= e($_POST['bio'] ?? '') ?></textarea>
             </div>
 
-            <!-- Submit Buttons -->
+            <!-- Buttons -->
             <div class="form-group full-width" style="display: flex; gap: 12px; margin-top: 12px;">
                 <button type="submit" class="btn btn-primary" style="padding: 12px 28px; font-size: 15px;">
                     <i class="fa-solid fa-check"></i> Save & Publish Escort
@@ -266,17 +264,5 @@ require_once __DIR__ . '/header.php';
     </form>
 </div>
 
-<script>
-// Live preview for the main image file input
-function previewImage(input, imgId) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        reader.onload = function (e) {
-            document.getElementById(imgId).src = e.target.result;
-        };
-        reader.readAsDataURL(input.files[0]);
-    }
-}
-</script>
-
+<?php require_once __DIR__ . '/image-manager.php'; ?>
 <?php require_once __DIR__ . '/footer.php'; ?>

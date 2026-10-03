@@ -107,6 +107,209 @@ function logo_img($mode) {
 @media screen and (max-height:640px){.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none!important}}
 .envato-block__preview{overflow:visible}.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper{text-align:center}.envato-kit-141-display-inline{display:inline-block}
 </style>
+<style id="responsive-profile-css">
+html,body{overflow-x:hidden}
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%;height:auto}
+.elementor-heading-title,.elementor-widget-text-editor,.elementor-widget-container p,.elementor-button-text{overflow-wrap:anywhere;word-break:normal}
+.elementor-image-carousel-wrapper{width:100%;max-width:100%;overflow:hidden}
+.elementor-image-carousel .swiper-slide{min-width:0}
+.elementor-image-carousel .swiper-slide-inner{display:flex;align-items:center;justify-content:center;width:100%;height:100%;margin:0}
+.elementor-image-carousel .swiper-slide-image{display:block;width:100%;height:auto;max-height:75vh;object-fit:contain}
+@media (max-width:767px){
+  /* Keep the mobile header completely independent from Elementor's
+     container sizing/flex rules. */
+  .mobile-site-header{
+    width:100%;
+    height:72px;
+    min-height:72px;
+    margin:0;
+    padding:7px 10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+    background:#000;
+    border-bottom:1px solid #292929;
+    box-sizing:border-box;
+    overflow:hidden;
+    position:relative;
+    z-index:20;
+  }
+
+  .mobile-site-header__logo{
+    flex:1 1 auto;
+    min-width:0;
+    height:56px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    overflow:hidden;
+  }
+
+  .mobile-site-header__logo a{
+    display:flex;
+    align-items:center;
+    width:auto;
+    height:100%;
+    max-width:100%;
+    text-decoration:none;
+  }
+
+  .mobile-site-header__logo img{
+    display:block;
+    width:auto!important;
+    height:auto!important;
+    max-width:155px!important;
+    max-height:52px!important;
+    object-fit:contain;
+  }
+
+  .mobile-site-header__social{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+  }
+
+  .mobile-site-header__social a{
+    width:28px;
+    height:28px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    text-decoration:none;
+    flex:none;
+  }
+
+  .mobile-site-header__social svg{
+    display:block;
+    width:22px;
+    height:22px;
+    fill:#fff;
+  }
+
+  .mobile-site-header__pickup{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+  }
+
+  .mobile-site-header__pickup a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:82px;
+    height:36px;
+    padding:0 8px;
+    box-sizing:border-box;
+    border:2px solid #d8ab2c;
+    border-radius:3px;
+    background:transparent;
+    color:#d8ab2c;
+    font-family:"Montserrat",sans-serif;
+    font-size:11px;
+    font-weight:600;
+    line-height:1;
+    text-decoration:none;
+    white-space:nowrap;
+  }
+
+  .mobile-site-header__pickup a:hover,
+  .mobile-site-header__pickup a:focus{
+    background:transparent;
+    color:#d8ab2c;
+    border-color:#d8ab2c;
+  }
+
+  /* Prevent the old mobile Elementor header containers from affecting
+     layout if they are cached/left in the DOM. */
+  .elementor-element-76ae831,
+  .elementor-element-ba4cfd0,
+  .elementor-element-b1c2ecb,
+  .elementor-element-b13704c,
+  .elementor-element-fbae335{
+    display:none!important;
+  }
+
+  .elementor-element-2a64c3c{
+    margin-top:0!important;
+  }
+
+  .elementor-heading-title{
+    white-space:normal;
+    overflow-wrap:anywhere;
+    line-height:1.3;
+  }
+
+  .elementor-element-c56af38 .elementor-image-carousel-wrapper{
+    height:auto!important;
+    min-height:0;
+  }
+
+  .elementor-element-c56af38 .elementor-image-carousel .swiper-slide{
+    height:auto!important;
+  }
+
+  .elementor-element-c56af38 .elementor-image-carousel .swiper-slide-inner{
+    height:auto!important;
+  }
+
+  .elementor-element-c56af38 .elementor-image-carousel .swiper-slide-image{
+    display:block;
+    width:100%!important;
+    height:auto!important;
+    max-height:none;
+    object-fit:contain;
+  }
+
+  .elementor-widget-button .elementor-button{
+    max-width:100%;
+    white-space:normal;
+    text-align:center;
+  }
+}
+
+@media (max-width:380px){
+  .mobile-site-header{
+    height:68px;
+    min-height:68px;
+    padding:6px 8px;
+    gap:5px;
+  }
+
+  .mobile-site-header__logo{
+    height:54px;
+  }
+
+  .mobile-site-header__logo img{
+    max-width:135px!important;
+    max-height:48px!important;
+  }
+
+  .mobile-site-header__social{
+    gap:2px;
+  }
+
+  .mobile-site-header__social a{
+    width:25px;
+    height:25px;
+  }
+
+  .mobile-site-header__social svg{
+    width:20px;
+    height:20px;
+  }
+
+  .mobile-site-header__pickup a{
+    width:76px;
+    height:34px;
+    font-size:10px;
+  }
+}
+</style>
 <style>
 :root{--owp-primary-color:#007a99;--owp-primary-color-hover:#005f78;--owp-link-color:#333333;--owp-link-color-hover:#007a99;--owp-button-bg-color:#007a99;--owp-button-bg-color-hover:#005f78;--owp-button-text-color:#ffffff;--owp-button-text-color-hover:#ffffff;--owp-button-padding-top:14px;--owp-button-padding-right:20px;--owp-button-padding-bottom:14px;--owp-button-padding-left:20px;--owp-button-font-size:14px;--owp-button-font-weight:600;--owp-button-letter-spacing:.05em;--owp-button-line-height:1.2;--owp-button-text-transform:none;--owp-input-text-color:#333333;--owp-input-border-color:#767676;--owp-input-border-color-focus:#333333;--owp-input-font-size:16px;--owp-input-line-height:1.6;--owp-widget-link-color:#007a99;--owp-widget-link-color-hover:#005f78;--owp-widget-link-text-decoration:underline;--owp-widget-link-text-decoration-hover:underline;--owp-widget-link-underline-offset:.2em;--owp-focus-outline-width:2px;--owp-focus-outline-offset:2px;--owp-focus-outline-color:currentColor;--owp-button-focus-outline-color:var(--owp-button-bg-color-hover,var(--owp-button-bg-color,var(--owp-primary-color,currentColor)))}
 body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button,.wp-block-button__link{border-color:#ffffff}
@@ -117,9 +320,7 @@ h1,h2,h3,h4,h5,h6{line-height:1.4}h1{font-size:23px}h2{font-size:20px}h3{font-si
 </style>
 <script src="./scripts/background-slideshow.min.js" async></script><script src="./scripts/background-video.min.js" async></script><script src="./scripts/image-carousel.min.js" async></script>
 <style id="custom-escort-cards-css">
-:root{--site-bg:#0a0a0a}
-html,body{overflow-x:hidden;width:100%;background:var(--site-bg)}
-.escort-cards-section{width:100%;background:var(--site-bg);padding:15px 0 40px}
+html,body{overflow-x:hidden;width:100%}
 *,*::before,*::after{box-sizing:border-box}
 img{max-width:100%;height:auto}
 .elementor{overflow-x:hidden}
@@ -132,7 +333,7 @@ img{max-width:100%;height:auto}
 .e-transform{transform:none!important}
 .elementor-image img,.elementor-widget-image img{width:100%!important;max-width:100%!important;height:auto!important}
 }
-.escort-cards-container{width:100%;max-width:1200px;margin:0 auto;padding:0 15px}
+.escort-cards-container{width:100%;max-width:1200px;margin:15px auto 40px;padding:0 15px}
 .escort-cards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;width:100%}
 .escort-item-card{position:relative;display:block;width:100%;height:480px;border-radius:40px;overflow:hidden;text-decoration:none;background-color:#121212;box-shadow:0 8px 25px rgba(0,0,0,.45);transition:transform .35s ease,box-shadow .35s ease;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .escort-item-card:hover{transform:translateY(-6px);box-shadow:0 16px 36px rgba(0,0,0,.7)}
@@ -143,10 +344,18 @@ img{max-width:100%;height:auto}
 .escort-card-button{position:absolute;bottom:24px;right:28px;display:flex;align-items:center;gap:10px;color:#fff;font-family:"Montserrat",sans-serif;font-size:18px;font-weight:400;text-transform:capitalize;text-shadow:0 2px 8px rgba(0,0,0,.8);z-index:2;pointer-events:none}
 .escort-card-button svg{width:20px;height:20px;fill:#fff;transition:transform .3s ease}
 .escort-item-card:hover .escort-card-button svg{transform:translateX(5px)}
+
+html, body { background-color: #000; }
+.escort-cards-container { background-color: #000; }
 @media (hover:none){.escort-item-card:hover{transform:none}.escort-item-card:hover img{filter:none;transform:none}}
 @media (max-width:991px){.escort-cards-container{padding:0 12px}.escort-cards-grid{grid-template-columns:repeat(2,1fr);gap:20px}.escort-item-card{height:400px;border-radius:30px}.escort-item-card .escort-img-box,.escort-item-card img{border-radius:30px}.escort-card-name{font-size:18px;top:20px;left:20px}.escort-card-button{font-size:15px;bottom:18px;right:18px}}
 @media (max-width:575px){.escort-cards-container{padding:0 10px}.escort-cards-grid{grid-template-columns:1fr;gap:18px}.escort-item-card{height:360px;border-radius:24px}.escort-item-card .escort-img-box,.escort-item-card img{border-radius:24px}.escort-card-name{font-size:16px;letter-spacing:1px;top:18px;left:18px}.escort-card-button{font-size:13px;bottom:16px;right:16px;gap:7px}.escort-card-button svg{width:16px;height:16px}}
 @media (max-width:400px){.escort-item-card{height:320px;border-radius:20px}.escort-item-card .escort-img-box,.escort-item-card img{border-radius:20px}.escort-card-name{font-size:14px;top:14px;left:14px}.escort-card-button{font-size:12px;bottom:12px;right:14px}}
+
+/* The standalone header is phone-only */
+@media (min-width:768px){
+  .mobile-site-header{display:none!important}
+}
 </style>
 </head>
 <body class="wp-singular page-template page-template-elementor_canvas page page-id-1205 wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile default-breakpoint has-sidebar content-right-sidebar has-topbar has-breadcrumbs elementor-default elementor-template-canvas elementor-kit-7 elementor-page elementor-page-1205 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet">
@@ -161,11 +370,31 @@ echo child_con('5618bab'), w_btn('d2136d2', $WA, 'BECOME A MODEL', '', 'e-transf
 echo '</div></div>';
 
 // ---------- MOBILE HEADER ----------
-echo parent_con('76ae831', 'elementor-hidden-desktop'), w_spacer('efb2b21'), '</div></div>';
-echo parent_con('ba4cfd0', 'elementor-hidden-desktop'), w_image('de26296', logo_img('mob')), '</div></div>';
-echo parent_con('b1c2ecb', 'elementor-hidden-desktop'), w_social('c4230c8', 'elementor-grid-mobile-0 e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center', 'be3dcfe', 'a436ceb'), '</div></div>';
-echo parent_con('b13704c', ''), w_btn('9c428b8', '#contact', 'PICK UP', '', 'e-transform elementor-hidden-desktop', $TX), '</div></div>';
-echo parent_con('fbae335', 'elementor-hidden-desktop'), '</div></div>';
+/*
+ * Standalone mobile header.
+ * This intentionally does NOT use Elementor containers so the existing
+ * Elementor flex/spacing rules cannot make the header vertically expand.
+ */
+echo '<header class="mobile-site-header" aria-label="Mobile site header">';
+
+echo '<div class="mobile-site-header__logo">';
+echo logo_img('mob');
+echo '</div>';
+
+echo '<div class="mobile-site-header__social" aria-label="Contact links">';
+echo '<a href="' . e($WA) . '" target="_blank" rel="noopener" aria-label="WhatsApp">';
+echo $SVG_WA;
+echo '</a>';
+echo '<a href="' . e($TG) . '" target="_blank" rel="noopener" aria-label="Telegram">';
+echo $SVG_TG;
+echo '</a>';
+echo '</div>';
+
+echo '<div class="mobile-site-header__pickup">';
+echo '<a href="#contact" aria-label="Pick up">PICK UP</a>';
+echo '</div>';
+
+echo '</header>';
 
 // ---------- CAROUSEL + DETAILS ----------
 echo parent_con('2a64c3c', '');
@@ -174,15 +403,13 @@ $slides = '';
 foreach ($gallery as $i => $g) {
     $slides .= '<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="'.($i+1).' / '.count($gallery).'"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="'.e(get_image_url($g, true)).'" alt="'.e($model['name']).'"></figure></div>';
 }
-$carousel = '<div id="profileSwiper" class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Image Carousel" dir="ltr"><div class="elementor-image-carousel swiper-wrapper swiper-image-stretch">'.$slides.'</div>'
+$carousel = '<div class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Image Carousel" dir="ltr"><div class="elementor-image-carousel swiper-wrapper swiper-image-stretch">'.$slides.'</div>'
     .'<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0" aria-label="Previous slide">'.$SVG_CL.'</div>'
     .'<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0" aria-label="Next slide">'.$SVG_CR.'</div>'
     .'<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>';
 $cw = widget('c56af38', 'elementor-arrows-position-inside', 'image-carousel', $carousel,
-    '{&quot;slides_to_show&quot;:&quot;2&quot;,&quot;slides_to_scroll&quot;:&quot;2&quot;,&quot;navigation&quot;:&quot;arrows&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;2&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}');
-$cw = str_replace('elementor-widget-image-carousel"', 'elementor-widget-image-carousel e-widget-swiper"', $cw);
-$cw = str_replace('data-widget_type="image-carousel.default"', 'data-widget_type="image-carousel.static"', $cw); // we start Swiper ourselves below
-echo $cw;
+    '{&quot;slides_to_show&quot;:&quot;2&quot;,&quot;slides_to_scroll&quot;:&quot;2&quot;,&quot;navigation&quot;:&quot;arrows&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}');
+echo str_replace('elementor-widget-image-carousel"', 'elementor-widget-image-carousel e-widget-swiper"', $cw);
 echo '</div>';
 
 echo child_con('08ad2ad');
@@ -203,7 +430,7 @@ echo parent_con('bfdf5de', ''), w_spacer('b74a4e0'), '</div></div>';
 echo parent_con('1c406f6', ''), w_heading('b4378d9', 'More ' . ($isBoy ? 'Boys' : 'Girls')), '</div></div>';
 echo parent_con('055f661', ''), w_spacer('0d28b9a'), '</div></div>';
 ?>
-<div class="escort-cards-section"><div class="escort-cards-container"><div class="escort-cards-grid">
+<div class="escort-cards-container"><div class="escort-cards-grid">
 <?php foreach ($moreModels as $o): ?>
 <a href="?id=<?= (int)$o['id'] ?>" class="escort-item-card">
   <div class="escort-img-box"><img decoding="async" src="<?= e(get_image_url($o['main_image'], true)) ?>" alt="<?= e($o['name']) ?>" loading="lazy"></div>
@@ -211,7 +438,7 @@ echo parent_con('055f661', ''), w_spacer('0d28b9a'), '</div></div>';
   <div class="escort-card-button"><span>View Profile</span><?= str_replace('<path ', '<path fill="#fff" ', $SVG_ARR) ?></div>
 </a>
 <?php endforeach; ?>
-</div></div></div>
+</div></div>
 <?php
 // ---------- CONTACT (desktop) ----------
 echo parent_con('e0048ee', 'elementor-hidden-mobile'), w_anchor('c6d0463', 'contact'), '</div></div>';
@@ -257,27 +484,5 @@ var elementorFrontendConfig={"environmentMode":{"edit":false,"wpPreview":false,"
 <?php foreach (['imagesloaded.min','theme.min','drop-down-mobile-menu.min','drop-down-search.min','magnific-popup.min','ow-lightbox.min','flickity.pkgd.min','ow-slider.min','scroll-effect.min','scroll-top.min','select.min','webpack.runtime.min','frontend-modules.min','core.min','frontend.min','swiper.min'] as $js): ?>
 <script src="./scripts/<?= $js ?>.js"></script>
 <?php endforeach; ?>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var el = document.getElementById('profileSwiper');
-  if (!el) return;
-  var next = el.querySelector('.elementor-swiper-button-next'),
-      prev = el.querySelector('.elementor-swiper-button-prev');
-  if (typeof Swiper !== 'undefined') {
-    new Swiper(el, {
-      slidesPerView: 2, slidesPerGroup: 2, spaceBetween: 0, loop: true, speed: 500,
-      autoplay: { delay: 5000, pauseOnMouseEnter: true, disableOnInteraction: true },
-      navigation: { nextEl: next, prevEl: prev }
-    });
-    return;
-  }
-  /* fallback if swiper.min.js did not load: simple scroll slider */
-  var wrap = el.querySelector('.swiper-wrapper');
-  wrap.style.cssText = 'display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;transform:none';
-  el.querySelectorAll('.swiper-slide').forEach(function (sl) { sl.style.cssText = 'flex:0 0 50%;scroll-snap-align:start'; });
-  next.addEventListener('click', function () { wrap.scrollBy({ left: wrap.clientWidth }); });
-  prev.addEventListener('click', function () { wrap.scrollBy({ left: -wrap.clientWidth }); });
-});
-</script>
 <span id="elementor-device-mode" class="elementor-screen-only"></span>
 </body></html>

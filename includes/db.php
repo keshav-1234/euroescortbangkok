@@ -64,7 +64,8 @@ function initTablesIfMissing($pdo) {
  */
 function get_image_url($path, $isSubfolder = false) {
     if (empty($path)) {
-        return $isSubfolder ? '../images/placeholder.jpg' : './images/placeholder.jpg';
+        $placeholder = 'images/Screenshot-2026-05-04-at-4.02.44-PM.png';
+        return $isSubfolder ? '../' . $placeholder : './' . $placeholder;
     }
     // External link
     if (preg_match('/^https?:\/\//i', $path)) {

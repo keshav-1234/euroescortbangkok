@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once __DIR__ . '/includes/db.php';
 $db = getDB();
 
@@ -19,11 +19,11 @@ $boys = $db->query("SELECT * FROM models WHERE gender = 'boy' AND status = 'acti
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Home - Escort Website">
-	<meta property="og:description" content="Whatsapp Telegram PICK UP VIP EscortVacation withA model in Thailand Receive an exclusive video of your chosen model before the meeting GET THE CATALOG PERSONAL MANAGER 100% CONFIDENTIALITY SATISFIED CLIENTS ELITE MODELS An Excellent Choice for Discerning Clients BEAUTY ETIQUETTE INTELLIGENCE LANGUAGE PROFICIENCY Only Genuine, Up-to-Date Photos ORDER A FULL CATALOG How to access the […]">
+	<meta property="og:description" content="Whatsapp Telegram PICK UP VIP EscortVacation withA model in Thailand Receive an exclusive video of your chosen model before the meeting GET THE CATALOG PERSONAL MANAGER 100% CONFIDENTIALITY SATISFIED CLIENTS ELITE MODELS An Excellent Choice for Discerning Clients BEAUTY ETIQUETTE INTELLIGENCE LANGUAGE PROFICIENCY Only Genuine, Up-to-Date Photos ORDER A FULL CATALOG How to access the [...]">
 	<meta property="og:url" content="https://euroescortbangkok.com/">
 	<meta property="og:site_name" content="Escort Website">
 	<meta property="article:modified_time" content="2026-09-28T06:38:55+00:00">
-	<meta property="og:image" content="https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM.png">
+	<meta property="og:image" content="./images/Screenshot-2026-05-04-at-4.02.44-PM.png">
 	<meta property="og:image:width" content="610">
 	<meta property="og:image:height" content="372">
 	<meta property="og:image:type" content="image/png">
@@ -32,8 +32,8 @@ $boys = $db->query("SELECT * FROM models WHERE gender = 'boy' AND status = 'acti
 	<!-- / Yoast SEO plugin. -->
 
 
-<link rel="alternate" type="application/rss+xml" title="Escort Website » Feed" href="https://euroescortbangkok.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="Escort Website » Comments Feed" href="https://euroescortbangkok.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Escort Website  » Feed" href="https://euroescortbangkok.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Escort Website  » Comments Feed" href="https://euroescortbangkok.com/comments/feed/">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://euroescortbangkok.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feuroescortbangkok.com%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://euroescortbangkok.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feuroescortbangkok.com%2F&format=xml">
 <style id="wp-img-auto-sizes-contain-inline-css">
@@ -121,10 +121,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					}
 				}
 			</style>
-			<link rel="icon" href="https://euroescortbangkok.com/wp-content/uploads/2026/05/cropped-Screenshot-2026-05-04-at-4.02.44-PM-32x32.png" sizes="32x32">
-<link rel="icon" href="https://euroescortbangkok.com/wp-content/uploads/2026/05/cropped-Screenshot-2026-05-04-at-4.02.44-PM-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="https://euroescortbangkok.com/wp-content/uploads/2026/05/cropped-Screenshot-2026-05-04-at-4.02.44-PM-180x180.png">
-<meta name="msapplication-TileImage" content="https://euroescortbangkok.com/wp-content/uploads/2026/05/cropped-Screenshot-2026-05-04-at-4.02.44-PM-270x270.png">
+			<link rel="icon" href="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" sizes="32x32">
+<link rel="icon" href="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./images/Screenshot-2026-05-04-at-4.02.44-PM.png">
+<meta name="msapplication-TileImage" content="./images/Screenshot-2026-05-04-at-4.02.44-PM.png">
 <style id="wp-custom-css">
 /** Start Block Kit CSS:144-3-3a7d335f39a8579c20cdf02f8d462582 **/.envato-block__preview{overflow:visible}/* Envato Kit 141 Custom Styles - Applied to the element under Advanced */.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper{text-align:center}.envato-kit-141-top-0 h1,.envato-kit-141-top-0 h2,.envato-kit-141-top-0 h3,.envato-kit-141-top-0 h4,.envato-kit-141-top-0 h5,.envato-kit-141-top-0 h6,.envato-kit-141-top-0 p{margin-top:0}.envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md{padding-left:1.5rem;padding-right:1.5rem}.envato-kit-141-bottom-0 p{margin-bottom:0}.envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header{margin-bottom:.5rem}.envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container{padding-bottom:52px}.envato-kit-141-display-inline{display:inline-block}.envato-kit-141 .elementor-slick-slider ul.slick-dots{bottom:-40px}/** End Block Kit CSS:144-3-3a7d335f39a8579c20cdf02f8d462582 **/
 </style>
@@ -172,6 +172,78 @@ img{max-width:100%;height:auto}
 @media (min-width:768px){
   .elementor-element-96a22b8 .swiper-slide-image{max-height:620px}
 }
+
+
+</style>
+
+<style id="kesh-steps-mobile">
+@media (max-width:767px){
+
+  /* the 5 step rows */
+  :is(.elementor-element-48346d5,.elementor-element-d1c6578,.elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588){
+    height:auto !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 16px !important;
+    background:#000 !important;
+  }
+
+  /* the card */
+  :is(.elementor-element-48346d5,.elementor-element-d1c6578,.elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588) > .e-con-inner{
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:nowrap !important;
+    align-items:center !important;
+    justify-content:flex-start !important;
+    gap:14px !important;
+    width:100% !important;
+    margin:6px 0 !important;
+    padding:16px 14px !important;
+    background:#0d0d0d !important;
+    border:1px solid rgba(216,171,44,.25) !important;
+    border-left:3px solid #d8ab2c !important;
+    border-radius:10px !important;
+  }
+
+  /* number column (first child) */
+  :is(.elementor-element-48346d5,.elementor-element-d1c6578,.elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588) > .e-con-inner > .e-con:first-child{
+    flex:0 0 52px !important;
+    width:52px !important;
+    max-width:52px !important;
+    min-width:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  :is(.elementor-element-48346d5,.elementor-element-d1c6578,.elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588) > .e-con-inner > .e-con:first-child .elementor-heading-title{
+    font-family:"Montserrat",Arial,sans-serif !important;
+    font-size:28px !important;
+    font-weight:700 !important;
+    line-height:1 !important;
+    letter-spacing:0 !important;
+    color:#d8ab2c !important;
+    text-align:left !important;
+    white-space:nowrap !important;
+  }
+
+  /* text column (last child) */
+  :is(.elementor-element-48346d5,.elementor-element-d1c6578,.elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588) > .e-con-inner > .e-con:last-child{
+    flex:1 1 auto !important;
+    width:auto !important;
+    min-width:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  :is(.elementor-element-48346d5,.elementor-element-d1c6578,.elementor-element-4a41c2f,.elementor-element-84cd163,.elementor-element-72be588) > .e-con-inner > .e-con:last-child .elementor-heading-title{
+    font-size:15px !important;
+    line-height:1.4 !important;
+    letter-spacing:.02em !important;
+    color:#fff !important;
+    text-align:left !important;
+  }
+
+  /* remove the spacer gap under the title */
+  .elementor-element-9bf1853{display:none !important;}
+}
 </style>
 <!-- OceanWP CSS -->
 <style type="text/css">
@@ -184,7 +256,7 @@ html, body {
 }
 
 /* ============================================================
-   FAQ SECTION FIX — title hidden behind background overlay
+   FAQ SECTION FIX - title hidden behind background overlay
    ============================================================ */
 
 /* The FAQ mobile section (elementor-element-e4c0632) has a background image
@@ -458,6 +530,164 @@ html, body {
     }
 }
 
+</style>
+<style id="kesh-footer-css">
+.kesh-footer{display:none}
+
+  .kesh-footer__title{
+    margin:0 0 2px;
+    font:600 18px/1.3 "Montserrat",Arial,sans-serif;
+    letter-spacing:.04em;
+    color:#fff;
+    text-align:center;
+  }
+  .kesh-footer__title::after{
+    content:"";
+    display:block;
+    width:44px;
+    height:2px;
+    margin:8px auto 0;
+    background:#d8ab2c;
+  }
+@media (max-width:767px){
+  .kesh-footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+    width:100%;
+    padding:22px 16px calc(80px + env(safe-area-inset-bottom, 0px)); /* extra room so the floating WhatsApp button never covers the buttons */
+    background:#000;
+    border-top:1px solid rgba(216,171,44,.35);
+    text-align:center;
+    position:relative;
+    z-index:2;
+  }
+  .kesh-footer__logo img{
+    display:block;
+    width:auto;
+    max-width:180px;
+    height:auto;
+    max-height:100px;
+    object-fit:contain;
+  }
+  .kesh-footer__copy{
+    margin:0;
+    font:500 12px/1.4 "Montserrat",Arial,sans-serif;
+    letter-spacing:.06em;
+    color:rgba(255,255,255,.75);
+  }
+  .kesh-footer__btns{
+    display:flex;
+    gap:10px;
+    width:100%;
+    max-width:300px;
+  }
+  .kesh-footer__btns a{
+    flex:1 1 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:7px;
+    height:38px;
+    border:1.5px solid #d8ab2c;
+    border-radius:4px;
+    background:transparent;
+    color:#d8ab2c;
+    font:600 12px/1 "Montserrat",Arial,sans-serif;
+    letter-spacing:.08em;
+    text-decoration:none;
+  }
+  .kesh-footer__btns a:active{background:#d8ab2c;color:#000}
+  .kesh-footer__btns svg{width:15px;height:15px;fill:currentColor;flex:none}
+
+  /* hide the old Elementor mobile footer */
+  /* HOMEPAGE (index.php): */
+  .elementor-element-7f33bf7,
+  .elementor-element-8cc26a3,
+  .elementor-element-5ef4e44{display:none!important}
+}
+</style>
+<style id="kesh-steps-fix">
+@media (max-width:767px){
+  .elementor .elementor-element.elementor-element-48346d5 > .e-con-inner,
+  .elementor .elementor-element.elementor-element-d1c6578 > .e-con-inner,
+  .elementor .elementor-element.elementor-element-4a41c2f > .e-con-inner,
+  .elementor .elementor-element.elementor-element-84cd163 > .e-con-inner,
+  .elementor .elementor-element.elementor-element-72be588 > .e-con-inner{
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:nowrap !important;
+    align-items:center !important;
+    justify-content:flex-start !important;
+    gap:14px !important;
+    padding:16px 14px !important;
+    margin:6px 0 !important;
+  }
+
+  /* number column */
+  .elementor .elementor-element.elementor-element-72be588 > .e-con-inner > .e-con:first-child,
+  .elementor .elementor-element.elementor-element-48346d5 > .e-con-inner > .e-con:first-child,
+  .elementor .elementor-element.elementor-element-d1c6578 > .e-con-inner > .e-con:first-child,
+  .elementor .elementor-element.elementor-element-4a41c2f > .e-con-inner > .e-con:first-child,
+  .elementor .elementor-element.elementor-element-84cd163 > .e-con-inner > .e-con:first-child{
+    flex:0 0 52px !important;
+    width:52px !important;
+    max-width:52px !important;
+  }
+
+  /* text column */
+  .elementor .elementor-element.elementor-element-72be588 > .e-con-inner > .e-con:last-child,
+  .elementor .elementor-element.elementor-element-48346d5 > .e-con-inner > .e-con:last-child,
+  .elementor .elementor-element.elementor-element-d1c6578 > .e-con-inner > .e-con:last-child,
+  .elementor .elementor-element.elementor-element-4a41c2f > .e-con-inner > .e-con:last-child,
+  .elementor .elementor-element.elementor-element-84cd163 > .e-con-inner > .e-con:last-child{
+    flex:1 1 0 !important;
+    width:auto !important;
+    max-width:none !important;
+    min-width:0 !important;
+  }
+
+  /* make sure 05 text sits vertically centered like the others */
+  .elementor-element-72be588 .elementor-widget,
+  .elementor-element-72be588 .elementor-widget-container{
+    margin:0 !important;
+    padding:0 !important;
+  }
+  .elementor-element-72be588 > .e-con-inner > .e-con:last-child .elementor-heading-title{
+    font-size:15px !important;
+    line-height:1.4 !important;
+    text-align:left !important;
+  }
+}
+</style>
+<style id="kesh-hero-title-css">
+@media (max-width:767px){
+  .elementor-element-b2f27dc,
+  .elementor-element-b2f27dc .elementor-widget-container{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    text-align:center !important;
+  }
+  .elementor-element-b2f27dc .elementor-heading-title{
+    display:block !important;
+    width:100% !important;
+    text-align:center !important;
+  }
+
+  /* each word stays together, each letter is revealed one by one */
+  .kesh-word{display:inline-block;white-space:nowrap}
+  .kesh-c{opacity:0}
+  .kesh-c.on{opacity:1}
+  /* blinking cursor after the last typed letter (no layout shift) */
+  .kesh-c.cur{box-shadow:2px 0 0 #ffd36b}
+}
+@media (prefers-reduced-motion:reduce){
+  .kesh-c{opacity:1}
+  .kesh-c.cur{box-shadow:none}
+}
 </style>
 
 <style id="kesh-fixed-mobile-header">
@@ -794,6 +1024,36 @@ html, body {
   }
 }
 </style>
+
+<style id="kesh-hero-list-center">
+@media (max-width:767px){
+  /* hide the four old left-aligned widgets */
+  .elementor-element-f15292b,
+  .elementor-element-beff4b4,
+  .elementor-element-48d19f0,
+  .elementor-element-701e9c5{display:none !important}
+
+  /* center the whole hero column */
+  .elementor .elementor-element.elementor-element-b73f27b{
+    align-items:center !important;
+    text-align:center !important;
+  }
+
+  /* center the GET THE CATALOG button */
+  .elementor .elementor-element.elementor-element-9814218,
+  .elementor-element-9814218 .elementor-widget-container,
+  .elementor-element-9814218 .elementor-button-wrapper{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    text-align:center !important;
+    transform:none !important;
+  }
+}
+</style>
+
+
 <style id="kesh-qualities-fix">
 .kesh-qualities{display:none;list-style:none;margin:0;padding:0}
 
@@ -822,6 +1082,100 @@ html, body {
     text-align:center;
   }
   .kesh-qualities li::before{content:"✦";color:#e0b13a;margin-right:8px}
+}
+</style>
+<style id="kesh-testimonials-css">
+.kesh-tcar{position:relative;width:100%;margin:0 auto;overflow:hidden}
+.kesh-tcar-track{display:flex;will-change:transform;transition:transform .6s ease}
+.kesh-tcar-track.no-anim{transition:none}
+.kesh-tcar-slide{flex:0 0 auto;padding:0 6px;box-sizing:border-box}
+.kesh-tcar-slide img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.kesh-tcar-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:34px;height:34px;border:0;border-radius:50%;background:rgba(0,0,0,.55);color:#fff;font-size:20px;line-height:34px;text-align:center;cursor:pointer;padding:0}
+.kesh-tcar-btn:hover{background:rgba(0,0,0,.85)}
+.kesh-tcar-prev{left:6px}
+.kesh-tcar-next{right:6px}
+</style>
+<style id="kesh-tighten-gap">
+@media (max-width:767px){
+
+  /* 1. remove the empty spacer container between the two sections */
+  .elementor-element-8d525c7{
+    display:none !important;
+  }
+
+  /* 2. hero: no extra space under the ELITE MODELS list */
+  .elementor .elementor-element.elementor-element-79a1d27,
+  .elementor .elementor-element.elementor-element-79a1d27 > .e-con-inner,
+  .elementor .elementor-element.elementor-element-b73f27b{
+    min-height:0 !important;
+    height:auto !important;
+    padding-bottom:0 !important;
+    margin-bottom:0 !important;
+  }
+  .kesh-qualities{
+    margin-bottom:0 !important;
+  }
+
+  /* 3. "An Excellent Choice" section: smaller top padding */
+  .elementor .elementor-element.elementor-element-acdba7c > .e-con-inner{
+    padding-top:40px !important;
+  }
+}
+</style>
+<style id="kesh-security-left">
+@media (max-width:767px){
+
+  /* the 4 cards: stack content and align to the left */
+  .elementor-element-cc1f515,
+  .elementor-element-3e5fbcd,
+  .elementor-element-35e60a7,
+  .elementor-element-af86dbc{
+    align-items:flex-start !important;
+    text-align:left !important;
+  }
+
+  /* widgets fill the width so left alignment is visible */
+  .elementor-element-cc1f515 .elementor-widget,
+  .elementor-element-3e5fbcd .elementor-widget,
+  .elementor-element-35e60a7 .elementor-widget,
+  .elementor-element-af86dbc .elementor-widget{
+    width:100% !important;
+    max-width:100% !important;
+    text-align:left !important;
+  }
+
+  /* titles + descriptions */
+  .elementor-element-9b2d9a0 .elementor-heading-title,  /* Complete Confidentiality */
+  .elementor-element-ce13eb3 .elementor-heading-title,  /* its text */
+  .elementor-element-360ec78 .elementor-heading-title,  /* Verified Models */
+  .elementor-element-a3aff75 .elementor-heading-title,  /* its text */
+  .elementor-element-580166b .elementor-heading-title,  /* Impeccable Reputation */
+  .elementor-element-150138f .elementor-heading-title,  /* its text */
+  .elementor-element-5bd9f3c .elementor-heading-title,  /* Personalized Approach */
+  .elementor-element-a9ed012 .elementor-heading-title{  /* its text */
+    text-align:left !important;
+  }
+
+  /* keep the main "SECURITY GUARANTEES" heading centered */
+  .elementor-element-fb1735f,
+  .elementor-element-fb1735f .elementor-heading-title{
+    text-align:center !important;
+  }
+}
+</style><style id="kesh-security-titles">
+@media (max-width:767px){
+
+  .elementor-element-9b2d9a0 .elementor-heading-title,  /* Complete Confidentiality */
+  .elementor-element-360ec78 .elementor-heading-title,  /* Verified Models */
+  .elementor-element-580166b .elementor-heading-title,  /* Impeccable Reputation */
+  .elementor-element-5bd9f3c .elementor-heading-title{  /* Personalized Approach */
+    font-weight:700 !important;
+    color:#d8ab2c !important;
+    letter-spacing:.08em !important;
+    text-transform:uppercase;
+    padding-left:10px;
+    border-left:3px solid #d8ab2c;
+  }
 }
 </style>
 
@@ -889,7 +1243,7 @@ html, body {
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-27518e0 elementor-widget elementor-widget-image" data-id="27518e0" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
+															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="./images/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, ./images/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
 				</div>
 					</div>
 				</div>
@@ -948,8 +1302,15 @@ html, body {
 					</span>
 					</a>
 				</div>
-								</div>
+				
+								</div>	
 				</div>
+				<ul class="kesh-qualities">
+                   <li>Personal Manager</li>
+                   <li>100% Confidentiality</li>
+                   <li>Satisfied Clients</li>
+                   <li>Elite Models</li>
+                 </ul>
 				<div class="elementor-element elementor-element-f15292b elementor-widget elementor-widget-heading" data-id="f15292b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">PERSONAL MANAGER</h2>				</div>
@@ -1219,7 +1580,7 @@ html, body {
 		<div class="elementor-element elementor-element-7652345 e-con-full e-flex e-con e-child" data-id="7652345" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-b46f73b elementor-widget elementor-widget-heading" data-id="b46f73b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">01...........</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">01</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-2b025c2 e-con-full e-flex e-con e-child" data-id="2b025c2" data-element_type="container" data-e-type="container">
@@ -1235,7 +1596,7 @@ html, body {
 		<div class="elementor-element elementor-element-825a598 e-con-full e-flex e-con e-child" data-id="825a598" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-68a70e7 elementor-widget elementor-widget-heading" data-id="68a70e7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">02............</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">02</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-a03a7ea e-con-full e-flex e-con e-child" data-id="a03a7ea" data-element_type="container" data-e-type="container">
@@ -1251,7 +1612,7 @@ html, body {
 		<div class="elementor-element elementor-element-974d3af e-con-full e-flex e-con e-child" data-id="974d3af" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-906e749 elementor-widget elementor-widget-heading" data-id="906e749" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">03............</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">03</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-6c1af2d e-con-full e-flex e-con e-child" data-id="6c1af2d" data-element_type="container" data-e-type="container">
@@ -1267,7 +1628,7 @@ html, body {
 		<div class="elementor-element elementor-element-dabd331 e-con-full e-flex e-con e-child" data-id="dabd331" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-125f389 elementor-widget elementor-widget-heading" data-id="125f389" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">04...........</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">04</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-2df39dc e-con-full e-flex e-con e-child" data-id="2df39dc" data-element_type="container" data-e-type="container">
@@ -1283,7 +1644,7 @@ html, body {
 		<div class="elementor-element elementor-element-871c339 e-con-full e-flex e-con e-child" data-id="871c339" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-b8bd089 elementor-widget elementor-widget-heading" data-id="b8bd089" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">05............</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">05</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-bbbba50 e-con-full e-flex e-con e-child" data-id="bbbba50" data-element_type="container" data-e-type="container">
@@ -1440,7 +1801,7 @@ html, body {
 														</span>
 												<a class="elementor-accordion-title" tabindex="0">What payment methods do you accept?</a>
 					</h2>
-					<div id="elementor-tab-content-1321" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1321" style="display: block;"><p>You can pay in USDT or by fiat card — choose the option that is most convenient for you.</p></div>
+					<div id="elementor-tab-content-1321" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1321" style="display: block;"><p>You can pay in USDT or by fiat card - choose the option that is most convenient for you.</p></div>
 				</div>
 							<div class="elementor-accordion-item">
 					<h2 id="elementor-tab-title-1322" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1322" aria-expanded="false">
@@ -1502,7 +1863,7 @@ html, body {
 		<div class="elementor-element elementor-element-1b2dd5d e-con-full e-flex e-con e-child" data-id="1b2dd5d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-f3e8d0c elementor-widget elementor-widget-image" data-id="f3e8d0c" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
+															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="./images/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, ./images/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-2f8d3b0 e-con-full e-flex e-con e-child" data-id="2f8d3b0" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1566,7 +1927,7 @@ html, body {
 		<div class="elementor-element elementor-element-3ca131a e-con-full e-flex e-con e-child" data-id="3ca131a" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-43c4b89 elementor-widget elementor-widget-image" data-id="43c4b89" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" title="Screenshot 2026-05-04 at 4.02.44 PM" alt="Screenshot 2026-05-04 at 4.02.44 PM" loading="lazy">															</div>
+															<img decoding="async" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" title="Screenshot 2026-05-04 at 4.02.44 PM" alt="Screenshot 2026-05-04 at 4.02.44 PM" loading="lazy">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-6a45e4a e-con-full e-flex e-con e-child" data-id="6a45e4a" data-element_type="container" data-e-type="container">
@@ -1652,7 +2013,7 @@ html, body {
 		<div class="elementor-element elementor-element-434a6d6 e-con-full e-flex e-con e-child" data-id="434a6d6" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-e21cee1 e-transform elementor-widget elementor-widget-image" data-id="e21cee1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:37,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-60,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="816" height="1021" src="./images/WhatsApp-Image-2026-04-30-at-10.55.02-AM.jpeg" class="attachment-large size-large wp-image-1626" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.55.02-AM.jpeg 816w, https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.55.02-AM-240x300.jpeg 240w, https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.55.02-AM-768x961.jpeg 768w" sizes="(max-width: 816px) 100vw, 816px">															</div>
+															<img decoding="async" width="816" height="1021" src="./images/WhatsApp-Image-2026-04-30-at-10.55.02-AM.jpeg" class="attachment-large size-large wp-image-1626" alt="" srcset="./images/WhatsApp-Image-2026-04-30-at-10.55.02-AM.jpeg 816w, ./images/WhatsApp-Image-2026-04-30-at-10.55.02-AM-240x300.jpeg 240w, ./images/WhatsApp-Image-2026-04-30-at-10.55.02-AM-768x961.jpeg 768w" sizes="(max-width: 816px) 100vw, 816px">															</div>
 				</div>
 				</div>
 					</div>
@@ -1710,7 +2071,7 @@ html, body {
 		<div class="elementor-element elementor-element-968e0dd e-con-full e-flex e-con e-child" data-id="968e0dd" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-7fee0a4 elementor-widget elementor-widget-image" data-id="7fee0a4" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="808" height="1024" src="./images/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-808x1024.jpeg" class="attachment-large size-large wp-image-1573" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-808x1024.jpeg 808w, https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-237x300.jpeg 237w, https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-768x973.jpeg 768w, https://euroescortbangkok.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2.jpeg 1010w" sizes="(max-width: 808px) 100vw, 808px">															</div>
+															<img decoding="async" width="808" height="1024" src="./images/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-808x1024.jpeg" class="attachment-large size-large wp-image-1573" alt="" srcset="./images/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-808x1024.jpeg 808w, ./images/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-237x300.jpeg 237w, ./images/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2-768x973.jpeg 768w, ./images/WhatsApp-Image-2026-04-30-at-10.44.47-AM-2.jpeg 1010w" sizes="(max-width: 808px) 100vw, 808px">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-3b39084 e-con-full e-flex e-con e-child" data-id="3b39084" data-element_type="container" data-e-type="container">
@@ -2097,23 +2458,23 @@ html, body {
 		<div class="elementor-element elementor-element-c348eb2 e-con-full e-flex e-con e-child" data-id="c348eb2" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-86c0f41 elementor-widget elementor-widget-heading" data-id="86c0f41" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">01…………</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">01............</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-682d1a0 elementor-widget elementor-widget-heading" data-id="682d1a0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">02…….....</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">02...........</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-4413b11 elementor-widget elementor-widget-heading" data-id="4413b11" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">03………...</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">03............</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-4ef4a71 elementor-widget elementor-widget-heading" data-id="4ef4a71" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">04………..</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">04...........</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-64113d5 elementor-widget elementor-widget-heading" data-id="64113d5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">05………...</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">05............</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-0b101a7 e-con-full e-flex e-con e-child" data-id="0b101a7" data-element_type="container" data-e-type="container">
@@ -2194,7 +2555,7 @@ html, body {
 		<div class="elementor-element elementor-element-a9e6a71 e-con-full e-flex e-con e-child" data-id="a9e6a71" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-54e2bb0 elementor-widget elementor-widget-image" data-id="54e2bb0" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="641" height="745" src="./images/girl3.png" class="attachment-large size-large wp-image-260" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2025/04/girl3.png 641w, https://euroescortbangkok.com/wp-content/uploads/2025/04/girl3-258x300.png 258w" sizes="(max-width: 641px) 100vw, 641px">															</div>
+															<img loading="lazy" decoding="async" width="641" height="745" src="./images/girl3.png" class="attachment-large size-large wp-image-260" alt="" srcset="./images/girl3.png 641w, ./images/girl3-258x300.png 258w" sizes="(max-width: 641px) 100vw, 641px">															</div>
 				</div>
 				</div>
 					</div>
@@ -2264,7 +2625,7 @@ html, body {
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-4cda053 elementor-widget elementor-widget-heading" data-id="4cda053" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Our clients’ impressions</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Our clients' impressions</h2>				</div>
 				</div>
 					</div>
 				</div>
@@ -2338,7 +2699,7 @@ html, body {
 														</span>
 												<a class="elementor-accordion-title" tabindex="0">What payment methods do you accept?</a>
 					</h2>
-					<div id="elementor-tab-content-1941" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1941" style="display: block;"><p>You can pay in USDT or by fiat card — choose the option that is most convenient for you.</p></div>
+					<div id="elementor-tab-content-1941" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1941" style="display: block;"><p>You can pay in USDT or by fiat card - choose the option that is most convenient for you.</p></div>
 				</div>
 							<div class="elementor-accordion-item">
 					<h2 id="elementor-tab-title-1942" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1942" aria-expanded="false">
@@ -2428,7 +2789,7 @@ html, body {
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-f492532 elementor-widget elementor-widget-image" data-id="f492532" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1024" height="199" src="./images/Screenshot-2026-06-30-at-5.05.49-PM-1024x199.png" class="attachment-large size-large wp-image-2434" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-5.05.49-PM-1024x199.png 1024w, https://euroescortbangkok.com/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-5.05.49-PM-300x58.png 300w, https://euroescortbangkok.com/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-5.05.49-PM-768x150.png 768w, https://euroescortbangkok.com/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-5.05.49-PM.png 1068w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
+															<img loading="lazy" decoding="async" width="1024" height="199" src="./images/Screenshot-2026-06-30-at-5.05.49-PM-1024x199.png" class="attachment-large size-large wp-image-2434" alt="" srcset="./images/Screenshot-2026-06-30-at-5.05.49-PM-1024x199.png 1024w, ./images/Screenshot-2026-06-30-at-5.05.49-PM-300x58.png 300w, ./images/Screenshot-2026-06-30-at-5.05.49-PM-768x150.png 768w, ./images/Screenshot-2026-06-30-at-5.05.49-PM.png 1068w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
 				</div>
 				<div class="elementor-element elementor-element-d5a717d elementor-widget elementor-widget-menu-anchor" data-id="d5a717d" data-element_type="widget" data-e-type="widget" data-widget_type="menu-anchor.default">
 				<div class="elementor-widget-container">
@@ -2452,7 +2813,7 @@ html, body {
 		<div class="elementor-element elementor-element-0fbd3ee e-con-full e-flex e-con e-child" data-id="0fbd3ee" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-cb27484 elementor-widget elementor-widget-image" data-id="cb27484" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
+															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="./images/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, ./images/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-64b3c87 e-con-full e-flex e-con e-child" data-id="64b3c87" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2508,7 +2869,7 @@ html, body {
 		<div class="elementor-element elementor-element-6ce5d1d e-con-full e-flex e-con e-child" data-id="6ce5d1d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-61f3723 elementor-widget elementor-widget-image" data-id="61f3723" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
+															<img fetchpriority="high" decoding="async" width="610" height="372" src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" class="attachment-large size-large wp-image-1814" alt="" srcset="./images/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, ./images/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w" sizes="(max-width: 610px) 100vw, 610px">															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-3b00a16 e-con-full e-flex e-con e-child" data-id="3b00a16" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2557,6 +2918,19 @@ html, body {
 					</div>
 				</div>
 				</div>
+				<footer class="kesh-footer" id="contact">
+  <h2 class="kesh-footer__title">How To Contact Us</h2>
+  <a class="kesh-footer__logo" href="./index.php"><img src="./images/Screenshot-2026-05-04-at-4.02.44-PM.png" alt="Euroescortbangkok"></a>
+  <p class="kesh-footer__copy">&copy; <?= date('Y') ?> Euroescortbangkok</p>
+  <div class="kesh-footer__btns">
+    <a href="https://wa.me/61489987819" target="_blank" rel="noopener">
+      <svg viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>WHATSAPP
+    </a>
+    <a href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 448 512"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/></svg>TELEGRAM
+    </a>
+  </div>
+</footer>
 		<script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/oceanwp/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
@@ -2648,6 +3022,167 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
 //# sourceURL=https://euroescortbangkok.com/wp-includes/js/wp-emoji-loader.min.js
 </script>
+
+<script id="kesh-testimonials-js">
+(function(){
+  var IDS = ['902e302','109efbe'];                 // mobile + desktop carousel widgets
+  var PV   = {phone:1.5, tablet:2.5, desk:4};      // phones visible at once (use 2 for exactly two on mobile)
+  var MAXW = {phone:340, tablet:600, desk:1100};   // frame max width in px
+  var SPEED = 45;                                  // scroll speed in px per second
+
+  function mode(){ var w = window.innerWidth; return w < 600 ? 'phone' : (w < 900 ? 'tablet' : 'desk'); }
+
+  function init(id){
+    var box = document.querySelector('.elementor-element-' + id + ' .elementor-widget-container');
+    if(!box || box.querySelector('.kesh-tcar')) return;
+
+    var seen = {}, imgs = [];
+    box.querySelectorAll('.swiper-slide img').forEach(function(im){
+      var s = im.getAttribute('src');
+      if(s && !seen[s]){ seen[s] = 1; imgs.push({src:s, alt:im.getAttribute('alt') || ''}); }
+    });
+    if(!imgs.length) return;
+
+    var orig = box.querySelector('.elementor-image-carousel-wrapper');
+    if(orig) orig.style.display = 'none';
+
+    var root = document.createElement('div'); root.className = 'kesh-tcar';
+    var track = document.createElement('div'); track.className = 'kesh-tcar-track';
+    track.style.transition = 'none';
+    root.appendChild(track); box.appendChild(root);
+
+    var N = imgs.length, m = '', pv = 1, sw = 0, loopW = 0, pos = 0, paused = false, last = 0;
+
+    function build(){
+      m = mode(); pv = PV[m];
+      root.style.maxWidth = MAXW[m] + 'px';
+      track.innerHTML = '';
+      imgs.concat(imgs).forEach(function(o){          // list twice for a seamless loop
+        var d = document.createElement('div'); d.className = 'kesh-tcar-slide';
+        var im = document.createElement('img'); im.src = o.src; im.alt = o.alt; im.decoding = 'async';
+        d.appendChild(im); track.appendChild(d);
+      });
+      fit();
+    }
+
+    function fit(){
+      var cw = root.clientWidth; if(!cw) return;
+      sw = cw / pv; loopW = N * sw;
+      track.querySelectorAll('.kesh-tcar-slide').forEach(function(s){ s.style.width = sw + 'px'; });
+      if(pos >= loopW) pos = pos % loopW;
+    }
+
+    function tick(ts){
+      if(!last) last = ts;
+      var dt = ts - last; last = ts;
+      if(!paused && loopW){
+        pos += SPEED * dt / 1000;
+        if(pos >= loopW) pos -= loopW;
+        track.style.transform = 'translate3d(' + (-pos) + 'px,0,0)';
+      }
+      requestAnimationFrame(tick);
+    }
+
+    root.addEventListener('touchstart', function(){ paused = true; }, {passive:true});
+    root.addEventListener('touchend',   function(){ paused = false; }, {passive:true});
+    root.addEventListener('touchcancel',function(){ paused = false; }, {passive:true});
+    window.addEventListener('resize', function(){ if(mode() !== m) build(); else fit(); });
+
+    build();
+    requestAnimationFrame(tick);
+  }
+
+  function run(){ IDS.forEach(init); }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
+  window.addEventListener('load', run);
+})();
+</script>
 	
+
+<script id="kesh-hero-title-js">
+(function(){
+  var TYPE_MS  = 90;    // delay between letters while typing
+  var ERASE_MS = 45;    // delay between letters while erasing
+  var HOLD_MS  = 2200;  // pause when the full title is shown
+  var GAP_MS   = 500;   // pause when empty, before typing again
+
+  function init(){
+    var h = document.querySelector('.elementor-element-b2f27dc .elementor-heading-title');
+    if(!h || h.dataset.typed) return;
+    h.dataset.typed = '1';
+
+    h.setAttribute('aria-label', h.textContent.replace(/\s+/g,' ').trim());
+
+    var lines = h.innerHTML.split(/<br\s*\/?>/i);
+    h.innerHTML = '';
+    var letters = [];
+
+    lines.forEach(function(line, i){
+      var tmp = document.createElement('div');
+      tmp.innerHTML = line;
+      var words = tmp.textContent.trim().split(/\s+/).filter(Boolean);
+      words.forEach(function(w, j){
+        var wrap = document.createElement('span');
+        wrap.className = 'kesh-word';
+        wrap.setAttribute('aria-hidden','true');
+        w.split('').forEach(function(ch){
+          var s = document.createElement('span');
+          s.className = 'kesh-c';
+          s.textContent = ch;
+          wrap.appendChild(s);
+          letters.push(s);
+        });
+        h.appendChild(wrap);
+        if(j < words.length - 1) h.appendChild(document.createTextNode(' '));
+      });
+      if(i < lines.length - 1) h.appendChild(document.createElement('br'));
+    });
+
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      letters.forEach(function(s){ s.classList.add('on'); });
+      return;
+    }
+
+    var n = 0, running = true;
+
+    function cursor(){
+      letters.forEach(function(s){ s.classList.remove('cur'); });
+      if(n > 0) letters[n-1].classList.add('cur');
+    }
+
+    function type(){
+      if(!running) return setTimeout(type, 500);
+      if(n < letters.length){
+        letters[n].classList.add('on');
+        n++; cursor();
+        setTimeout(type, TYPE_MS);
+      } else {
+        setTimeout(erase, HOLD_MS);
+      }
+    }
+
+    function erase(){
+      if(!running) return setTimeout(erase, 500);
+      if(n > 0){
+        n--; letters[n].classList.remove('on'); cursor();
+        setTimeout(erase, ERASE_MS);
+      } else {
+        setTimeout(type, GAP_MS);
+      }
+    }
+
+    // pause when off screen or tab hidden, so it doesn't waste work
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(en){ running = en[0].isIntersecting && !document.hidden; }, {threshold:0.1}).observe(h);
+    }
+    document.addEventListener('visibilitychange', function(){ if(document.hidden) running = false; });
+
+    setTimeout(type, 300);
+  }
+
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // ===================== LOGIC =====================
 require_once __DIR__ . '/../includes/db.php';
 if (session_status() === PHP_SESSION_NONE) session_start();
@@ -53,8 +53,8 @@ $SVG_TGP = '<svg aria-hidden="true" class="e-font-icon-svg e-fab-telegram-plane"
 $SVG_ARR = '<svg aria-hidden="true" class="e-font-icon-svg e-fas-long-arrow-alt-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"/></svg>';
 $SVG_CL  = '<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"/></svg>';
 $SVG_CR  = '<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"/></svg>';
-$LOGO = './images/Screenshot-2026-05-04-at-4.02.44-PM.png';
-$LOGO_SRCSET = 'https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, https://euroescortbangkok.com/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w';
+$LOGO = '../images/Screenshot-2026-05-04-at-4.02.44-PM.png';
+$LOGO_SRCSET = '../images/Screenshot-2026-05-04-at-4.02.44-PM.png 610w, ../images/Screenshot-2026-05-04-at-4.02.44-PM-300x183.png 300w';
 
 $TX = '{&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:19,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}';
 $BG = '{&quot;background_background&quot;:&quot;classic&quot;}';
@@ -309,7 +309,19 @@ img{max-width:100%;height:auto}
     font-size:10px;
   }
 }
+/* Desktop header logo - larger */
+@media (min-width:768px){
+  .elementor-element-d9e2971 img{
+    width:200px !important;
+    max-width:none !important;
+    height:auto !important;
+  }
+  .elementor-element-d9e2971 .elementor-widget-container{
+    overflow:visible;
+  }
+}
 </style>
+
 <style>
 :root{--owp-primary-color:#007a99;--owp-primary-color-hover:#005f78;--owp-link-color:#333333;--owp-link-color-hover:#007a99;--owp-button-bg-color:#007a99;--owp-button-bg-color-hover:#005f78;--owp-button-text-color:#ffffff;--owp-button-text-color-hover:#ffffff;--owp-button-padding-top:14px;--owp-button-padding-right:20px;--owp-button-padding-bottom:14px;--owp-button-padding-left:20px;--owp-button-font-size:14px;--owp-button-font-weight:600;--owp-button-letter-spacing:.05em;--owp-button-line-height:1.2;--owp-button-text-transform:none;--owp-input-text-color:#333333;--owp-input-border-color:#767676;--owp-input-border-color-focus:#333333;--owp-input-font-size:16px;--owp-input-line-height:1.6;--owp-widget-link-color:#007a99;--owp-widget-link-color-hover:#005f78;--owp-widget-link-text-decoration:underline;--owp-widget-link-text-decoration-hover:underline;--owp-widget-link-underline-offset:.2em;--owp-focus-outline-width:2px;--owp-focus-outline-offset:2px;--owp-focus-outline-color:currentColor;--owp-button-focus-outline-color:var(--owp-button-bg-color-hover,var(--owp-button-bg-color,var(--owp-primary-color,currentColor)))}
 body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button,.wp-block-button__link{border-color:#ffffff}
@@ -356,6 +368,49 @@ html, body { background-color: #000; }
 @media (min-width:768px){
   .mobile-site-header{display:none!important}
 }
+
+
+</style>
+
+<style id="kesh-profile-carousel-css">
+/* hide the Elementor/Swiper version, our carousel replaces it */
+.elementor-element-c56af38 .elementor-image-carousel-wrapper{display:none!important}
+
+.kesh-pcar{
+  position:relative;width:100%;overflow:hidden;
+  touch-action:pan-y;              /* vertical page scroll still works on phones */
+  user-select:none;-webkit-user-select:none;
+  cursor:grab;
+}
+.kesh-pcar.dragging{cursor:grabbing}
+.kesh-pcar-track{display:flex;will-change:transform}
+.kesh-pcar-slide{
+  flex:0 0 auto;box-sizing:border-box;
+  height:480px;              /* fixed height only */
+  width:auto;                /* width follows the photo */
+  max-width:100%;
+  background:#000;
+}
+.kesh-pcar-slide img{
+  display:block;
+  height:100%!important;     /* fixed height */
+  width:auto!important;      /* auto width */
+  max-width:100%!important;
+  max-height:none!important;
+  object-fit:contain;        /* never crops or stretches */
+  pointer-events:none;-webkit-user-drag:none;user-select:none;
+}
+@media (max-width:767px){
+  .kesh-pcar-slide{height:420px}
+}
+.kesh-pcar-btn{
+  position:absolute;top:50%;transform:translateY(-50%);z-index:5;
+  width:36px;height:36px;border:0;border-radius:50%;padding:0;
+  background:rgba(0,0,0,.5);color:#fff;font-size:22px;line-height:36px;text-align:center;cursor:pointer;
+}
+.kesh-pcar-btn:hover{background:rgba(0,0,0,.8)}
+.kesh-pcar-prev{left:8px}
+.kesh-pcar-next{right:8px}
 </style>
 </head>
 <body class="wp-singular page-template page-template-elementor_canvas page page-id-1205 wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile default-breakpoint has-sidebar content-right-sidebar has-topbar has-breadcrumbs elementor-default elementor-template-canvas elementor-kit-7 elementor-page elementor-page-1205 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet">
@@ -417,7 +472,7 @@ echo w_heading('a878f63', mb_strtoupper(e($model['name']), 'UTF-8'));
 echo w_heading('154e590', 'Age: ' . e($model['age']));
 echo w_heading('443e587', 'Height: ' . e($model['height']));
 echo w_heading('d050b08', 'Weight: ' . e($model['weight']));
-echo w_heading('4dd7a80', ($isBoy ? 'Chest' : 'Breast') . ' size: ' . e($model['breast_size']));
+echo w_heading('4dd7a80', ($isBoy ? 'Dick' : 'Breast') . ' size: ' . e($model['breast_size']));
 echo w_heading('1100fce', 'Hair: ' . e($model['hair']));
 $origin = '';
 foreach (['origin', 'origen', 'country', 'nationality'] as $k) { if (!empty($model[$k])) { $origin = $model[$k]; break; } }
@@ -483,6 +538,119 @@ var elementorFrontendConfig={"environmentMode":{"edit":false,"wpPreview":false,"
 <script data-wp-strategy="defer" defer src="./scripts/app.js"></script>
 <?php foreach (['imagesloaded.min','theme.min','drop-down-mobile-menu.min','drop-down-search.min','magnific-popup.min','ow-lightbox.min','flickity.pkgd.min','ow-slider.min','scroll-effect.min','scroll-top.min','select.min','webpack.runtime.min','frontend-modules.min','core.min','frontend.min','swiper.min'] as $js): ?>
 <script src="./scripts/<?= $js ?>.js"></script>
+
 <?php endforeach; ?>
+
+<script id="kesh-profile-carousel-js">
+(function(){
+  var ID = 'c56af38';
+  var AUTOPLAY = 4000;
+  var SPEED = 450;
+
+  function init(){
+    var box = document.querySelector('.elementor-element-' + ID + ' .elementor-widget-container');
+    if(!box || box.querySelector('.kesh-pcar')) return;
+
+    var imgs = [];
+    box.querySelectorAll('.swiper-slide:not(.swiper-slide-duplicate) img').forEach(function(im){
+      imgs.push({src: im.getAttribute('src'), alt: im.getAttribute('alt') || ''});
+    });
+    if(!imgs.length) return;
+
+    var N = imgs.length;
+    var root  = document.createElement('div'); root.className = 'kesh-pcar';
+    var track = document.createElement('div'); track.className = 'kesh-pcar-track';
+    var prev  = document.createElement('button'); prev.className = 'kesh-pcar-btn kesh-pcar-prev'; prev.type='button'; prev.setAttribute('aria-label','Previous'); prev.innerHTML = '&#8249;';
+    var next  = document.createElement('button'); next.className = 'kesh-pcar-btn kesh-pcar-next'; next.type='button'; next.setAttribute('aria-label','Next');     next.innerHTML = '&#8250;';
+    root.appendChild(track); root.appendChild(prev); root.appendChild(next);
+    box.appendChild(root);
+
+    var idx = N, timer = null, lock = null;
+    var dragging = false, startX = 0, startT = 0, dx = 0;
+
+    function offsetOf(i){
+      var s = track.children[i];
+      return s ? s.offsetLeft : 0;
+    }
+
+    function place(animate){
+      track.style.transition = animate ? 'transform ' + SPEED + 'ms ease' : 'none';
+      track.style.transform = 'translate3d(' + (-offsetOf(idx)) + 'px,0,0)';
+    }
+
+    function build(){
+      track.innerHTML = '';
+      for(var c = 0; c < 3; c++){
+        imgs.forEach(function(o){
+          var d = document.createElement('div'); d.className = 'kesh-pcar-slide';
+          var im = document.createElement('img');
+          im.src = o.src; im.alt = o.alt; im.draggable = false; im.decoding = 'async';
+          im.addEventListener('load', function(){ if(!dragging) place(false); });
+          d.appendChild(im); track.appendChild(d);
+        });
+      }
+      idx = N; place(false);
+    }
+
+    function normalize(){
+      if(idx >= 2 * N)  idx -= N;
+      else if(idx < N)  idx += N;
+      else return;
+      place(false);
+      void track.offsetWidth;
+    }
+
+    function go(i){
+      idx = i; place(true);
+      clearTimeout(lock);
+      lock = setTimeout(normalize, SPEED + 40);
+    }
+
+    function start(){ stop(); timer = setInterval(function(){ if(!dragging && !document.hidden) go(idx + 1); }, AUTOPLAY); }
+    function stop(){ if(timer){ clearInterval(timer); timer = null; } }
+
+    root.addEventListener('pointerdown', function(e){
+      if(e.target.closest('.kesh-pcar-btn')) return;
+      if(e.pointerType === 'mouse' && e.button !== 0) return;
+      normalize();
+      dragging = true; dx = 0;
+      startX = e.clientX; startT = -offsetOf(idx);
+      root.classList.add('dragging');
+      stop();
+      try{ root.setPointerCapture(e.pointerId); }catch(_){}
+    });
+    root.addEventListener('pointermove', function(e){
+      if(!dragging) return;
+      dx = e.clientX - startX;
+      track.style.transition = 'none';
+      track.style.transform = 'translate3d(' + (startT + dx) + 'px,0,0)';
+    });
+    function end(){
+      if(!dragging) return;
+      dragging = false; root.classList.remove('dragging');
+      if(Math.abs(dx) > root.clientWidth * 0.15) go(idx + (dx < 0 ? 1 : -1));
+      else go(idx);
+      start();
+    }
+    root.addEventListener('pointerup', end);
+    root.addEventListener('pointercancel', end);
+    root.addEventListener('dragstart', function(e){ e.preventDefault(); });
+
+    prev.addEventListener('click', function(){ normalize(); go(idx - 1); start(); });
+    next.addEventListener('click', function(){ normalize(); go(idx + 1); start(); });
+
+    window.addEventListener('resize', function(){ place(false); });
+
+    build();
+    start();
+  }
+
+  function run(){ init(); }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
+  window.addEventListener('load', run);
+})();
+</script>
+
+
 <span id="elementor-device-mode" class="elementor-screen-only"></span>
 </body></html>
